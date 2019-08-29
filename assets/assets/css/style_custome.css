@@ -1,0 +1,190 @@
+.hwItWrksSbSec:after {
+    bottom: 49px;
+}
+
+.hwItWrksSbSec {
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #ccc;
+    height: 550px;
+    background-image: url(../imgs/how_it_woks_bg.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.reviewsSec {
+    padding: 105px 0 100px;
+    background-color: #fff;
+}
+
+.appScrn {
+    width: 653px;
+    height: 462px;
+    margin-bottom: -15px;
+    /* margin-top: 13px; */
+    margin-left: 50px;
+    background-image: url(../imgs/app-screen.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.gradiantback{
+
+    -webkit-box-shadow:0 8px 12px rgba(0,0,0,.3);
+    box-shadow:0 8px 12px rgba(0,0,0,.3);
+    background-color:#ff2e61;
+
+}
+
+.btn-danger {
+    color: #fff;
+    color: #fff;
+    background-color: #fd888c;
+    border-color: #ff2e61;
+    border: 4px solid #fb668a;
+}
+
+.mobilemenu{
+
+}
+
+.arwCnt .arw1, .arwCnt .arw2, .arwCnt .arw3 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transition: var(--transition);
+}
+
+    .logo_cont {
+    /* height: 70px; */
+    /* width: 165px; */
+    line-height: normal;
+    position: relative;
+    position: absolute;
+    left: 42%;
+}
+.mobilelog{
+    display: none;
+}
+@media (max-width: 767px) and (min-width: 300px){
+    .mobilemenu{
+        position: absolute;
+        right: 22px;
+        top: -15px;
+    }
+    .hmbrgrMainMenu {
+        margin: 22px 0 0 0;
+        width: 50px;
+        height: 30px;
+        position: relative;
+    }
+    .booking_button {
+        margin: 0px 15px 0px -12px;
+        margin-right: 0px!important;
+    }
+    .wyYMDMOptnImg{
+        height: auto;
+        width: auto;
+    }
+    .wyYMDMOptnTxt{
+        width: auto;
+    }
+    .appScrn {
+        width: auto;
+        height: 235px;
+        margin-bottom: -15px;
+        /* margin-top: 13px; */
+        margin-left: 50px;
+        background-image: url(../imgs/app-screen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .hmbrgrMenuData{
+        display: auto!important;
+        left:auto;
+        transition: all 0.3s ease-in;
+    }
+    .hmbrgrMenu {
+        width: 40px;
+        height: 30px;
+        margin: 0;
+        padding: 5px 5px;
+        border-radius: 2px;
+        left: 10px;
+        position: absolute;
+    }
+    .mobilemenu {
+        position: absolute;
+        right: 22px;
+        top: -15px;
+        width: 100%;
+    }
+    .booking_button {
+        margin: 0px 15px 0px -12px;
+        margin-right: 0px!important;
+        position: absolute;
+        right: -33px;
+        top: 17px;
+    }
+    .mobilelog {
+        position: absolute;
+        right: 260px;
+        /* background: #000; */
+        background: white;
+        width: auto;
+        z-index: 1;
+        display: block;
+    }
+    .mobilelog a {
+        background: #ffffff;
+        padding: 0 15px;
+        height: 85px;
+        border: 2px solid #ff0052;
+        border-bottom-left-radius: 111px;
+        border-bottom-right-radius: 111px;
+        margin-top: -2px;
+            margin-left: -43px;
+
+    }
+
+    .arwCnt .arw1, .arwCnt .arw2, .arwCnt .arw3 {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        transition: var(--transition);
+    }
+
+}
+
+.footerapplink img{
+    width: 130px;;
+}
+ul.appLink.footerapplink a {
+    width: 50%;
+    float: left;
+}
+.subscribeCnt {
+    width: 100%;
+    float: right;
+}
+.appDwnldBtn {
+    max-width: 405px;
+    width: 100%;
+    color: #666;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 25px;
+    -webkit-box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    position: relative;
+    top: 84px;
+}
+
+.adrsCnt li:first-child i {
+    height: 80px;
+}
