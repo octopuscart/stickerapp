@@ -182,7 +182,7 @@ $this->load->view('layout/header');
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">APPOINTMENTS</h2>
-                    <p _ngcontent-c6=""> The YES MADAM Mobile app allows customers to easily book,Manage, and Track appointments with just a few taps and touches. Apart from this Our Customer's receive notifications for Booking and Assigned Beautician via SMS when appointment are scheduled </p>
+                    <p _ngcontent-c6=""> The Style Treat Studios Mobile app allows customers to easily book,Manage, and Track appointments with just a few taps and touches. Apart from this Our Customer's receive notifications for Booking and Assigned Beautician via SMS when appointment are scheduled </p>
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">100% TRANSPARENCY IN PRODUCTS</h2>
