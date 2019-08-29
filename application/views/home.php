@@ -22,7 +22,7 @@ $this->load->view('layout/header');
     <section _ngcontent-c9="" class="whyYMDMSec">
         <div _ngcontent-c9="" class="container">
             <div _ngcontent-c9="" class="secHdngCnt">
-                <h1 _ngcontent-c9="">Why Yes Madam</h1></div>
+                <h1 _ngcontent-c9="">Why Style Treat Studios</h1></div>
             <div _ngcontent-c9="" class="wyYMDMCnt">
                 <div _ngcontent-c9="" class="wyYMDMOptn">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-3.jpg"></div>
@@ -103,7 +103,7 @@ $this->load->view('layout/header');
                                             <div _ngcontent-c11="" class="cstmrDtl">
                                                 <div _ngcontent-c11="" class="cstmrImg"><img _ngcontent-c11="" alt="" style="border-radius: 50%;    height: inherit;" src="<?php echo base_url(); ?>assets/images/logo.png"></div>
                                                 <div _ngcontent-c11="" class="cstmrNmDtl">
-                                                    <h3 _ngcontent-c11="" title="Sakshi Malviya"><?php echo $value['person'];?></h3><span _ngcontent-c11="" class="reviewed">Reviewed Yes Madam</span></div>
+                                                    <h3 _ngcontent-c11="" title="Sakshi Malviya"><?php echo $value['person'];?></h3><span _ngcontent-c11="" class="reviewed">Reviewed Style Treat Studios</span></div>
                                             </div>
                                             <div _ngcontent-c11="" class="rvwTxt">
                                                 <p _ngcontent-c11="" style="    height: 88%;

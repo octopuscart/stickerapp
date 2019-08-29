@@ -29,7 +29,7 @@ $this->load->view('layout/header');
                      <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
                      <p _ngcontent-c15="">C-44,Shop No.2,<br _ngcontent-c15="">Street no. 15, Mabhu Vihar <br/>New Delhi,  110092 India</p>
                   </li>
-                  <li _ngcontent-c15=""><i _ngcontent-c15="" class="fas fa-envelope"></i><a _ngcontent-c15="" href="mailto:support@yesmadam.com">support@yesmadam.com</a></li>
+                  <li _ngcontent-c15=""><i _ngcontent-c15="" class="fas fa-envelope"></i><a _ngcontent-c15="" href="mailto:support@styletreatstudio.com">support@styletreatstudio.com</a></li>
                   <li _ngcontent-c15="">
                      <i _ngcontent-c15="" class="fas fa-mobile-alt"></i>
                      <p _ngcontent-c15="">098736 77954</p>
@@ -37,10 +37,10 @@ $this->load->view('layout/header');
                </ul>
                <ul _ngcontent-c15="" class="scialAccnts">
                   <p _ngcontent-c15="">Follow Us</p>
-                  <li _ngcontent-c15="" class="fb"><a _ngcontent-c15="" href="https://www.facebook.com/yesmadameveryonesprivatebeautician/"><i _ngcontent-c15="" class="fab fa-facebook-f"></i></a></li>
-                  <li _ngcontent-c15="" class="tw"><a _ngcontent-c15="" href="https://twitter.com/yesmadamhome"><i _ngcontent-c15="" class="fab fa-twitter"></i></a></li>
-                  <li _ngcontent-c15="" class="inst"><a _ngcontent-c15="" href="https://www.instagram.com/YesMadamAtHomeSalon/"><i _ngcontent-c15="" class="fab fa-instagram"></i></a></li>
-                  <li _ngcontent-c15="" class="pint"><a _ngcontent-c15="" href="https://in.pinterest.com/yesmadamathomesalon/"><i _ngcontent-c15="" class="fab fa-pinterest-p"></i></a></li>
+                  <li _ngcontent-c15="" class="fb"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-facebook-f"></i></a></li>
+                  <li _ngcontent-c15="" class="tw"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-twitter"></i></a></li>
+                  <li _ngcontent-c15="" class="inst"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-instagram"></i></a></li>
+                  <li _ngcontent-c15="" class="pint"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-pinterest-p"></i></a></li>
                </ul>
             </div>
          </div>

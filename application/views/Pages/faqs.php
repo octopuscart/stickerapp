@@ -98,7 +98,7 @@ $this->load->view('layout/header');
             <div _ngcontent-c17="" class="txtCnt msgThrpyTxtCnt">
                <h3 _ngcontent-c17="">FRANCHISE ENQUIRY</h3>
                <span _ngcontent-c17="" class="txtSbCnt">
-                  <p _ngcontent-c17=""><strong _ngcontent-c17=""> 1.How can I do enquiry to open Yes Madam Franchise in my city? </strong></p>
+                  <p _ngcontent-c17=""><strong _ngcontent-c17=""> 1.How can I do enquiry to open Style Treat Studios Franchise in my city? </strong></p>
                   <p _ngcontent-c17=""><span _ngcontent-c17="" class="txtSbCnt"> You can send franchise related query to us on Email :- franchise@yesmadam.com. </span></p>
                </span>
             </div>
