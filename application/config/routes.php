@@ -64,4 +64,7 @@ $route['sitemap\.xml'] = "Sitemap/index";
 $route['sitemap'] = "Sitemap/general";
 $route['admin'] = "Shop/locallogin";
 
+$route['privacypolicy'] = 'Shop/privacypolicy';
+
+
 

@@ -63,6 +63,10 @@ class Shop extends CI_Controller {
         $this->load->view('Pages/aboutus');
     }
 
+     public function privacypolicy() {
+        $this->load->view('Pages/privacypolicy');
+    }
+    
  
     public function appointment() {
         $this->load->view('Pages/appointment');
