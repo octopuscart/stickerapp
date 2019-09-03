@@ -16,10 +16,8 @@ class Api extends REST_Controller {
     public function index() {
         $this->load->view('welcome_message');
     }
-    
-    
-    
-       //function for product list
+
+    //function for product list
     function loginOperation_get() {
         $userid = $this->user_id;
         $this->db->select('au.id,au.first_name,au.last_name,au.email,au.contact_no');
@@ -54,8 +52,77 @@ class Api extends REST_Controller {
         $this->response($result);
     }
 
-    //end of login function
-    //
+    function registerMobileGuest_post() {
+        $this->config->load('rest', TRUE);
+        header('Access-Control-Allow-Origin: *');
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
+        $reg_id = $this->post('reg_id');
+        $model = $this->post('model');
+        $manufacturer = $this->post('manufacturer');
+        $uuid = $this->post('uuid');
+        $regArray = array(
+            "reg_id" => $reg_id,
+            "manufacturer" => $manufacturer,
+            "uuid" => $uuid,
+            "model" => $model,
+            "user_id" => "Guest",
+            "user_type" => "Guest",
+            "datetime" => date("Y-m-d H:i:s a")
+        );
+        $this->db->where('reg_id', $reg_id);
+        $query = $this->db->get('gcm_registration');
+        $regarray = $query->result_array();
+        if ($regArray) {
+            
+        } else {
+            $this->db->insert('gcm_registration', $regArray);
+        }
+        $this->response(array("status" => "done"));
+    }
+
+    //Mobile Booking APi
+    function bookingFromMobile_post() {
+        header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");
+        header('Access-Control-Allow-Origin: *');
+
+        $this->config->load('rest', TRUE);
+        $bookingarray = $this->post();
+        //print_r($bookingarray);
+
+        $web_order = array(
+            'last_name' => $this->post('first_name'),
+            'first_name' => $this->post('last_name'),
+            'email' => $this->post('email'),
+            'contact' => $this->post('contact_no'),
+            'select_date' => $this->post('select_date'),
+            'select_time' => $this->post('select_time'),
+            'booking_type' => "",
+            'extra_remark' => "",
+            'select_table' => "",
+            'people' => "",
+            "usertype" => "Customer",
+            'datetime' => date("Y-m-d H:i:s a"),
+            "order_source" => "Mobile App",
+            'order_date' => date("Y-m-d"),
+            'status' => "0",
+        );
+        $this->db->insert('web_order', $web_order);
+
+        $last_id = $this->db->insert_id();
+        $oderid = $last_id;
+        $ordertype = $this->post('booking_type');
+        $orderlog = array(
+            'log_type' => "Order Received",
+            'log_datetime' => date('Y-m-d H:i:s'),
+            'user_id' => "",
+            'order_id' => $last_id,
+            'log_detail' => "Order No. #$last_id  $ordertype From Mobile App",
+        );
+        $this->db->insert('system_log', $orderlog);
+
+        $this->response(array("status" => "done"));
+    }
+
 }
 
 ?>
