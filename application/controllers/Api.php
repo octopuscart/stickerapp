@@ -97,7 +97,7 @@ class Api extends REST_Controller {
             'select_date' => $this->post('select_date'),
             'select_time' => $this->post('select_time'),
             'booking_type' => "",
-            'extra_remark' => "",
+            'extra_remark' => $this->post('message'),
             'select_table' => "",
             'people' => "",
             "usertype" => "Customer",
