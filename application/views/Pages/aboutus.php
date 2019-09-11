@@ -12,17 +12,7 @@ $this->load->view('layout/header');
                 <h2 _ngcontent-c14="">About Us</h2>
             </div>
         </section>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- STS Display AD 3 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2246837719135984"
-             data-ad-slot="2107412149"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+       
         <section _ngcontent-c14="" class="aboutSec">
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="abtTxt">
@@ -66,6 +56,17 @@ $this->load->view('layout/header');
                 </div>
             </div>
         </section>
+         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- STS Display AD 3 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2246837719135984"
+             data-ad-slot="2107412149"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
         <section _ngcontent-c14="" class="wtWeHvSec">
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="crr_5_rsn_hdng">The services that we offer:</div>

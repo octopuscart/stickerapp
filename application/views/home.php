@@ -47,9 +47,7 @@ $this->load->view('layout/header');
                 </div>
             </div>
         </div>
-    </section>
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- STS Display ad 1 horizontal -->
     <ins class="adsbygoogle"
          style="display:block"
@@ -60,6 +58,9 @@ $this->load->view('layout/header');
     <script>
          (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    </section>
+
+    
     <section  class="hwItWrksSec">
         <div  class="hwItWrksSbSec">
             <div  class="container">
