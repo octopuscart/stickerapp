@@ -22,17 +22,7 @@ $this->load->view('layout/header');
             </div>
         </section>
 
-        <section _ngcontent-c14="" class="introSmtngNwSec">
-            <div _ngcontent-c14="" class="container">
-                <div _ngcontent-c14="" class="abtTxt">
-                    <h3 _ngcontent-c14="">Introducing Something New</h3>
-                    <p _ngcontent-c14=""> In this 21st century, people are way too busy in their life with their family and work. Especially women have become so good when it comes to multitasking and working that sometimes they tend to forget and not get the apt time for their beauty care and relaxation. You must have gone through a situation when you are just not able to make an appointment to the parlor, or often you happen to miss the appointments due to time issues. </p>
-                    <p _ngcontent-c14=""> Yes, Madam has come up with a solution to all these problems where you can appointment a perfectly qualified, experienced and trained beautician at your home allowing you just to relax and avail the beauty parlor services without going out or caring about missing your appointment at the salons. </p>
-                    <p _ngcontent-c14=""> At Style Treat Studios, we help you discover the best salon services to enjoy at the comfort of your home - wherever you are! Make every other need, be it the manicure, pedicure, hair spa or other things more easy for you. Based on your location and preference, our smart search engine will provide you with the best beauty experts knocking at your doorsteps to fulfill all your beauty needs. Explore every time you open the app with new and budget-friendly packages. What's more, with offers on everything around you... you are sure to try something new every time. </p>
-                    <p _ngcontent-c14=""> We care about your experiences, and that is why everything you put in the cart comes up with great prices along with our profound beauty experts who are expert in their field of service. All our beauty experts use only labeled and authentic products because you ought to have the best. This has been put in place to make sure you can try new experiences, innovative packages, products and more without ever having to be troubled about the money you invested in it. </p>
-                    <p _ngcontent-c14=""><b _ngcontent-c14="">"Pretty Women! Invest in your Skin. It is going to represent you for a very long time!"</b></p>
-                </div>
-            </div>
+        <section style="background: white;text-align: center;">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- STS Display ad 2 -->
             <ins class="adsbygoogle"
@@ -46,6 +36,20 @@ $this->load->view('layout/header');
             </script>
         </section>
 
+        <section _ngcontent-c14="" class="introSmtngNwSec">
+            <div _ngcontent-c14="" class="container">
+                <div _ngcontent-c14="" class="abtTxt">
+                    <h3 _ngcontent-c14="">Introducing Something New</h3>
+                    <p _ngcontent-c14=""> In this 21st century, people are way too busy in their life with their family and work. Especially women have become so good when it comes to multitasking and working that sometimes they tend to forget and not get the apt time for their beauty care and relaxation. You must have gone through a situation when you are just not able to make an appointment to the parlor, or often you happen to miss the appointments due to time issues. </p>
+                    <p _ngcontent-c14=""> Yes, Madam has come up with a solution to all these problems where you can appointment a perfectly qualified, experienced and trained beautician at your home allowing you just to relax and avail the beauty parlor services without going out or caring about missing your appointment at the salons. </p>
+                    <p _ngcontent-c14=""> At Style Treat Studios, we help you discover the best salon services to enjoy at the comfort of your home - wherever you are! Make every other need, be it the manicure, pedicure, hair spa or other things more easy for you. Based on your location and preference, our smart search engine will provide you with the best beauty experts knocking at your doorsteps to fulfill all your beauty needs. Explore every time you open the app with new and budget-friendly packages. What's more, with offers on everything around you... you are sure to try something new every time. </p>
+                    <p _ngcontent-c14=""> We care about your experiences, and that is why everything you put in the cart comes up with great prices along with our profound beauty experts who are expert in their field of service. All our beauty experts use only labeled and authentic products because you ought to have the best. This has been put in place to make sure you can try new experiences, innovative packages, products and more without ever having to be troubled about the money you invested in it. </p>
+                    <p _ngcontent-c14=""><b _ngcontent-c14="">"Pretty Women! Invest in your Skin. It is going to represent you for a very long time!"</b></p>
+                </div>
+            </div>
+
+        </section>
+
         <section _ngcontent-c14="" class="aboutSec">
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="abtTxt">
@@ -57,8 +61,7 @@ $this->load->view('layout/header');
                 </div>
             </div>
         </section>
-
-        <section _ngcontent-c14="" class="wtWeHvSec">
+        <section style="background: white;text-align: center;">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- STS Display AD 3 -->
             <ins class="adsbygoogle"
@@ -70,6 +73,10 @@ $this->load->view('layout/header');
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
+        </section>
+
+        <section _ngcontent-c14="" class="wtWeHvSec">
+
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="crr_5_rsn_hdng">The services that we offer:</div>
                 <div _ngcontent-c14="" class="crr_crd_main_cnt">
@@ -117,6 +124,9 @@ $this->load->view('layout/header');
                     </div>
                 </div>
             </div>
+
+        </section>
+        <section style="background: white;text-align: center;">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- STS Display ad 1 horizontal -->
             <ins class="adsbygoogle"
