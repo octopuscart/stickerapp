@@ -5,7 +5,7 @@
     <head>
         <meta name="viewport" content="width=device-width" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>BaanThai.hk</title>
+   
     </head>
 
     <body style="margin:0px; background: #f8f8f8; ">
@@ -21,12 +21,11 @@
                         </tr>
                     </tbody>
                 </table>
-                <div style="padding: 40px; background: #fff;background:url(http://baanthai.costcokart.com/assets/images/woodback.jpg)">
+                <div style="padding: 40px; background: #fff;background:url()">
                     <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;color:white">
                         <tbody>
                             <tr>
                                 <td style="    text-align: center;font-size: 18px;">
-                                                                        <img src="http://baanthai.costcokart.com/assets/images/ad.jpg" style="margin: 10px; height:400px;    background: white;width: auto;"/>
 
                                     <b>Dear <?php echo $appointment['first_name']; ?> <?php echo $appointment['last_name']; ?>,</b>
                                     <p>Thank You for giving us the opportunity to serve you. We will do our best to be sure you enjoy our services. <br/>Your Booking/Enquiry details are as follow.</p>

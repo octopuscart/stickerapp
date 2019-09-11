@@ -49,7 +49,17 @@ $this->load->view('layout/header');
         </div>
     </section>
 
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- STS Display ad 1 horizontal -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2246837719135984"
+         data-ad-slot="8024107323"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
     <section  class="hwItWrksSec">
         <div  class="hwItWrksSbSec">
             <div  class="container">
@@ -137,6 +147,17 @@ $this->load->view('layout/header');
             </div>
         </section>
     </app-customer-reviews>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- STS Display ad 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2246837719135984"
+     data-ad-slot="7359738829"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <app-welcome-rough-content _ngcontent-c6="" _nghost-c12="">
         <!---->
         <section _ngcontent-c12="" class="homeVideoSec ng-star-inserted">
@@ -169,6 +190,17 @@ $this->load->view('layout/header');
             </div>
         </section>
     </app-welcome-rough-content>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- STS Display AD 3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2246837719135984"
+     data-ad-slot="2107412149"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
     <!---->
     <section _ngcontent-c6="" class="ourFeatureSec ng-star-inserted">

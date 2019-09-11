@@ -8,6 +8,17 @@ $this->load->view('layout/header');
          <h2 _ngcontent-c15="">Contact Us</h2>
       </div>
    </section>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- STS Display ad 1 horizontal -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2246837719135984"
+         data-ad-slot="8024107323"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
    <section _ngcontent-c15="" class="cntctFrmCntSec">
       <div _ngcontent-c15="" class="container">
          <div _ngcontent-c15="" class="cntctFrmCnt">
@@ -46,6 +57,17 @@ $this->load->view('layout/header');
          </div>
       </div>
    </section>
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- STS Display ad 2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2246837719135984"
+             data-ad-slot="7359738829"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
 </app-contact-us>
 <!--end of contant section-->
 
