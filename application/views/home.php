@@ -47,20 +47,22 @@ $this->load->view('layout/header');
                 </div>
             </div>
         </div>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- STS Display ad 1 horizontal -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2246837719135984"
-         data-ad-slot="8024107323"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+
     </section>
 
-    
+    <section>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- STS Display ad 1 horizontal -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2246837719135984"
+             data-ad-slot="8024107323"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </section>
     <section  class="hwItWrksSec">
         <div  class="hwItWrksSbSec">
             <div  class="container">
@@ -114,19 +116,19 @@ $this->load->view('layout/header');
                                             <div _ngcontent-c11="" class="cstmrDtl">
                                                 <div _ngcontent-c11="" class="cstmrImg"><img _ngcontent-c11="" alt="" style="border-radius: 50%;    height: inherit;" src="<?php echo base_url(); ?>assets/images/logo.png"></div>
                                                 <div _ngcontent-c11="" class="cstmrNmDtl">
-                                                    <h3 _ngcontent-c11="" title="Sakshi Malviya"><?php echo $value['person'];?></h3><span _ngcontent-c11="" class="reviewed">Reviewed Style Treat Studios</span></div>
+                                                    <h3 _ngcontent-c11="" title="Sakshi Malviya"><?php echo $value['person']; ?></h3><span _ngcontent-c11="" class="reviewed">Reviewed Style Treat Studios</span></div>
                                             </div>
                                             <div _ngcontent-c11="" class="rvwTxt">
                                                 <p _ngcontent-c11="" style="    height: 88%;
-                                                    overflow: hidden !important;">
-                                                       <?php echo $value['review'];?>
+                                                   overflow: hidden !important;">
+                                                   <?php echo $value['review']; ?>
                                                 </p>
                                             </div>
                                             <div _ngcontent-c11="" class="cstmrBtcanRt">
                                                 <div _ngcontent-c11="" class="fbRvwCnt">
                                                     <div _ngcontent-c11="" class="fbCnt"> Reviewed on: <i _ngcontent-c11="" class="fab fa-google-plus-g"></i></div>
                                                 </div>
-<!--                                                <div _ngcontent-c11="" class="btcianCnt"><span _ngcontent-c11="" class="prfHired">Professional Hired</span>
+    <!--                                                <div _ngcontent-c11="" class="btcianCnt"><span _ngcontent-c11="" class="prfHired">Professional Hired</span>
                                                     <div _ngcontent-c11="" class="btcianNmCnt">
                                                         <div _ngcontent-c11="" class="btcianImg"><img _ngcontent-c11="" alt="" style="    background-color: #fff" src="https://cdn.yesmadam.com/images/5_1.png"></div>
                                                         <div _ngcontent-c11="" class="btcianNm"><span _ngcontent-c11="" class="nm">Sangya</span><span _ngcontent-c11="" class="rating"><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i></span></div>
@@ -147,18 +149,21 @@ $this->load->view('layout/header');
 
             </div>
         </section>
+        <section>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- STS Display ad 2 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2246837719135984"
+                 data-ad-slot="7359738829"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
     </app-customer-reviews>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- STS Display ad 2 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2246837719135984"
-     data-ad-slot="7359738829"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
     <app-welcome-rough-content _ngcontent-c6="" _nghost-c12="">
         <!---->
         <section _ngcontent-c12="" class="homeVideoSec ng-star-inserted">
@@ -191,17 +196,19 @@ $this->load->view('layout/header');
             </div>
         </section>
     </app-welcome-rough-content>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- STS Display AD 3 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2246837719135984"
-     data-ad-slot="2107412149"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+    <section>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- STS Display AD 3 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2246837719135984"
+         data-ad-slot="2107412149"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </section>
 
     <!---->
     <section _ngcontent-c6="" class="ourFeatureSec ng-star-inserted">
