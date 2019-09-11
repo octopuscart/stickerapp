@@ -12,7 +12,7 @@ $this->load->view('layout/header');
                 <h2 _ngcontent-c14="">About Us</h2>
             </div>
         </section>
-       
+
         <section _ngcontent-c14="" class="aboutSec">
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="abtTxt">
@@ -33,18 +33,19 @@ $this->load->view('layout/header');
                     <p _ngcontent-c14=""><b _ngcontent-c14="">"Pretty Women! Invest in your Skin. It is going to represent you for a very long time!"</b></p>
                 </div>
             </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- STS Display ad 2 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2246837719135984"
+                 data-ad-slot="7359738829"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </section>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- STS Display ad 2 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2246837719135984"
-             data-ad-slot="7359738829"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+
         <section _ngcontent-c14="" class="aboutSec">
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="abtTxt">
@@ -56,18 +57,19 @@ $this->load->view('layout/header');
                 </div>
             </div>
         </section>
-         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- STS Display AD 3 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2246837719135984"
-             data-ad-slot="2107412149"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+
         <section _ngcontent-c14="" class="wtWeHvSec">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- STS Display AD 3 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2246837719135984"
+                 data-ad-slot="2107412149"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="crr_5_rsn_hdng">The services that we offer:</div>
                 <div _ngcontent-c14="" class="crr_crd_main_cnt">
@@ -115,18 +117,19 @@ $this->load->view('layout/header');
                     </div>
                 </div>
             </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- STS Display ad 1 horizontal -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2246837719135984"
+                 data-ad-slot="8024107323"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </section>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- STS Display ad 1 horizontal -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2246837719135984"
-             data-ad-slot="8024107323"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+
     </div>
 </app-about-us>
 <!--end of contant section-->
