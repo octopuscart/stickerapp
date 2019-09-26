@@ -58,7 +58,16 @@ $this->load->view('layout/header');
 
     </section>
 
-    <section style="background: white;text-align: center;">
+  
+    <section  class="hwItWrksSec">
+        <div  class="hwItWrksSbSec">
+            <div  class="container">
+
+            </div>
+        </div>
+    </section>
+
+      <section style="background: white;text-align: center;">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- STS Display ad 1 horizontal -->
         <ins class="adsbygoogle"
@@ -71,14 +80,6 @@ $this->load->view('layout/header');
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </section>
-    <section  class="hwItWrksSec">
-        <div  class="hwItWrksSbSec">
-            <div  class="container">
-
-            </div>
-        </div>
-    </section>
-
     <!---->
     <!---->
     <app-customer-reviews _ngcontent-c6="" _nghost-c11="">
