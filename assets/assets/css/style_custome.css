@@ -188,3 +188,76 @@ ul.appLink.footerapplink a {
 .adrsCnt li:first-child i {
     height: 80px;
 }
+
+
+.whyYMDMSec {
+    padding: 150px 0 100px;
+    background-color: #042a2d;
+}
+
+.whyYMDMSec .secHdngCnt h1:before {
+    content: 'Style Treat Studio';
+    color: #6262622b;
+    white-space: nowrap;
+}
+
+.wyYMDMOptn .wyYMDMHdng {
+    font-family: var(--montserrat);
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    color: #fffafa;
+}
+
+.wyYMDMOptn p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 30px;
+    color: white;
+}
+
+header {
+    /* background-color: #fff; */
+    background: black;
+    color: white;
+}
+
+header:hover {
+    /* background-color: #fff; */
+    background: black;
+    color: white;
+}
+
+.navbar {
+    background: black!important;
+}
+.navbar-nav{
+        display: inline-block;
+    text-align: center;
+    width: 100%;
+        margin: 20px 0px 0px 0px
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, 0.9)!important;
+}
+.nav-item{
+    display: inline-block;
+}
+
+.headerdownloadlogo{
+        float: left;
+    width: fit-content;
+    position: absolute;
+}
+
+.btn-danger {
+    color: #fff;
+    color: #fff;
+    background-color: #0000;
+    border-color: #bdbdbd;
+    border: 2px solid #ffffff;
+}

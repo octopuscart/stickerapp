@@ -66,12 +66,11 @@
         <!--angular js-->
         <script src="<?php echo base_url(); ?>assets/angular/angular.min.js"></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-2246837719135984",
-          enable_page_level_ads: true
-     });
-</script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-2246837719135984",
+                    enable_page_level_ads: true
+            });</script>
 
 
 
@@ -144,6 +143,18 @@
                             <header  class="animated fadeInDown" id="navbar">
 
                                 <div  class="container">
+
+
+                                    <ul _ngcontent-c12="" class="appLink headerdownloadlogo">
+                                        <li _ngcontent-c12="">
+                                            <a _ngcontent-c12="" href="#" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/google-play.png"></a>
+                                        </li>
+
+                                        <li _ngcontent-c12="">
+                                            <a _ngcontent-c12="" href="#" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/apple-icon.png"></a>
+                                        </li>
+                                    </ul>
+
                                     <div  class="">
                                         <div  class="logo_cont hidden_mobile">
                                             <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="width: 211px;"></a>
@@ -223,24 +234,7 @@
                                                                 </div>-->
                                 <!---->
                             </header>
-                            <div  class="loginPpupCnt" style="display: none;">
-                                <div  class="loginMnCnt animated">
-                                    <div  class="loginSbCnt">
-                                        <div  class="loginFrmCnt"><span  class="loginClsBtn" style="position: absolute;top:1px;right:2px"><i  class="fas fa-times"></i></span>
-                                            <div  class="lginPhNmbrCnt"><span  class="phoneInfo" style="top: 16px;position:absolute"><i  class="fas fa-info-circle"></i><span  class="infoTxt">We'll not share your number with anyone without your permission.</span></span>
-                                                <div  class="lgnInInputFrm"><span  class="cntryCode">+91</span>
-                                                    <form  novalidate="" class="ng-untouched ng-pristine ng-invalid">
-                                                        <input  class="nmbrInput ng-untouched ng-pristine ng-invalid" formcontrolname="mobileNumber" placeholder="Mobile Number" type="text" value="">
-                                                        <!---->
-                                                        <button  class="lginSgUpCnt" type="submit"><i class="fa fa-edit"></i> Book Now </button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                            <div  class="trmsCndtnCnt"><span  class="radioBtn"><input  checked="checked" class="trmsCndtion" id="trmsCndtion" name="" type="checkbox" value=""><label  for="trmsCndtion">I have read Terms and Conditions</label></span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
 
                             <div  class="registerPpupCnt" style="display: none">
                                 <div  class="registerMnCnt animated">
@@ -250,6 +244,37 @@
                                     </div>
                                 </div>
                             </div>
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Know our Story</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Academy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">E-Shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">FAQ's</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Our Portfolio</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
                         </app-header>
 
 
