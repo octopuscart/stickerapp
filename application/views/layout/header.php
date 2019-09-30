@@ -255,7 +255,7 @@
                                             <a class="nav-link" href="<?php echo site_url("aboutus") ?>">Know Our Story</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Services</a>
+                                            <a class="nav-link" href="<?php echo site_url("services") ?>">Services</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Academy</a>
