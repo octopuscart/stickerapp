@@ -9,7 +9,7 @@ $this->load->view('layout/header');
     <div _ngcontent-c14="">
         <section _ngcontent-c14="" class="sbPageTopSec servicesPgSec">
             <div _ngcontent-c14="" class="container">
-                <h2 _ngcontent-c14="">About Us</h2>
+                <h2 _ngcontent-c14="">Know Our Story</h2>
             </div>
         </section>
 
@@ -77,53 +77,7 @@ $this->load->view('layout/header');
 
         <section _ngcontent-c14="" class="wtWeHvSec">
 
-            <div _ngcontent-c14="" class="container">
-                <div _ngcontent-c14="" class="crr_5_rsn_hdng">The services that we offer:</div>
-                <div _ngcontent-c14="" class="crr_crd_main_cnt">
-                    <div _ngcontent-c14="" class="crr_crd_cnt one left">
-                        <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"><img _ngcontent-c14="" alt="" src=""></span>
-                            <h3 _ngcontent-c14="" class="crr_hdng">Waxing</h3>
-                            <p _ngcontent-c14=""> Waxing not only removes the unwanted hair from your skin and gives you a smooth, feather-touch skin, it also removes the dead cells so that you are left with healthy skin only. Not to forget, it also helps in decreasing cellulite and helps keep you in shape! Caught your attention now, didn’t we? </p>
-                        </div>
-                    </div>
-                    <div _ngcontent-c14="" class="crr_crd_cnt two right">
-                        <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"></span>
-                            <h3 _ngcontent-c14="" class="crr_hdng">Hair Spa</h3>
-                            <p _ngcontent-c14=""> There is nothing more pleasurable than a relaxing hair spa done right. The best answer to dry and damaged hair, a hair spa lovingly caresses each strand of your hair, giving it the nourishment that it deserves, going right down to the roots to give you a beautiful, healthy mane that is the envy of all around you. Not to forget the relaxing massage you get in the process- instant nirvana! </p>
-                        </div>
-                    </div>
-                    <div _ngcontent-c14="" class="crr_crd_cnt three left">
-                        <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"><img _ngcontent-c14="" alt="" src=""></span>
-                            <h3 _ngcontent-c14="" class="crr_hdng">Nail treatment/ Manicure</h3>
-                            <p _ngcontent-c14=""> It is said nothing can improve your mood like a new manicure. Your hands are as important as your face, if not more so. Clean hands with perfectly and neatly painted nails can add more to your persona than you might think possible. Life is not perfect, but your nails can definitely be! Gesticulate away! </p>
-                        </div>
-                    </div>
-                    <div _ngcontent-c14="" class="crr_crd_cnt four right">
-                        <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"></span>
-                            <h3 _ngcontent-c14="" class="crr_hdng">Pedicure</h3>
-                            <p _ngcontent-c14=""> A pedicure is not just a cosmetic service. It eases all the pressure from that one part on which the entire body weight falls- your feet. It also improves blood circulation and helps your nails avoid the chances of developing fungal or other such infections. And then, who doesn’t love clean, pretty feet? </p>
-                        </div>
-                    </div>
-                    <div _ngcontent-c14="" class="crr_crd_cnt five left">
-                        <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"><img _ngcontent-c14="" alt="" src=""></span>
-                            <h3 _ngcontent-c14="" class="crr_hdng">Face Bleaching</h3>
-                            <p _ngcontent-c14=""> The harsh beating sun can cause more damage to your skin than you might think possible. Bleaching not only gets rid of your tan, but also helps it look cleaner, fresher, younger, and more vibrant. Our skincare experts blanch your face utilizing strategies that don't harm the surface of your skin. Absolutely safe! </p>
-                        </div>
-                    </div>
-                    <div _ngcontent-c14="" class="crr_crd_cnt six right">
-                        <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"></span>
-                            <h3 _ngcontent-c14="" class="crr_hdng">Facial</h3>
-                            <p _ngcontent-c14=""> A facial is not just about spoiling yourself as an expert soothingly massages your face. A facial done right cleans and hydrates your skin too, getting rid of the pigmentation and dark spots, massaging the facial muscles to give you a taut, younger looking face that is aglow with good health, thanks to the increase in the blood flow. We use products containing imperative minerals and supplements that decrease wrinkles and remove the dead skin, giving you an energetic appearance. Dark mud, natural product acids, vitamins, and compounds are only a couple of the uncommon fixings found in our facials. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+   
 
         </section>
         <section style="background: white;text-align: center;">

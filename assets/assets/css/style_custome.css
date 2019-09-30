@@ -58,7 +58,7 @@
     transition: var(--transition);
 }
 
-    .logo_cont {
+.logo_cont {
     /* height: 70px; */
     /* width: 165px; */
     line-height: normal;
@@ -146,7 +146,7 @@
         border-bottom-left-radius: 111px;
         border-bottom-right-radius: 111px;
         margin-top: -2px;
-            margin-left: -43px;
+        margin-left: -43px;
 
     }
 
@@ -235,10 +235,10 @@ header:hover {
     background: black!important;
 }
 .navbar-nav{
-        display: inline-block;
+    display: inline-block;
     text-align: center;
     width: 100%;
-        margin: 20px 0px 0px 0px
+    margin: 20px 0px 0px 0px
 }
 
 .navbar a {
@@ -249,7 +249,7 @@ header:hover {
 }
 
 .headerdownloadlogo{
-        float: left;
+    float: left;
     width: fit-content;
     position: absolute;
 }
@@ -260,4 +260,62 @@ header:hover {
     background-color: #0000;
     border-color: #bdbdbd;
     border: 2px solid #ffffff;
+}
+
+.cntctAddress{
+    height: 600px;
+}
+
+.bookingtype{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.contactform label{
+    font-size: 12px;
+}
+
+.buttonslidernavigation{
+
+}
+
+.button-pre{
+
+}
+
+.button-next{
+    float: left;
+}
+
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}
+
+.owl-next{
+    float: right;
+}
+
+.bigSlider button {
+    padding: 10px!important;
+    width: 80px;
+    background: #00000096!important;
+    color: white!important;
+}
+
+
+
+.showinmobile{
+    display: none;
+}
+
+@media (max-width: 767px) and (min-width: 300px){
+    .hideonmobile{
+        display: none;
+    }
+    .showinmobile{
+        display: block;
+    }
 }

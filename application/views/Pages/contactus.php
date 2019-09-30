@@ -14,11 +14,30 @@ $this->load->view('layout/header');
             <div _ngcontent-c15="" class="cntctFrmCnt">
                 <div _ngcontent-c15="" class="cntctFrmsCnt">
                     <div _ngcontent-c15="" class="cntctFrmsSbCnt">
-                        <h3 _ngcontent-c15="">Send Us a Message</h3>
-                        <form _ngcontent-c15="" novalidate="" class="ng-untouched ng-pristine ng-invalid">
-                            <input _ngcontent-c15="" formcontrolname="name" name="name" placeholder="Enter your full name" type="text" class="ng-untouched ng-pristine ng-invalid"><!----><input _ngcontent-c15="" formcontrolname="email" name="email" placeholder="Enter your email" type="email" value="" class="ng-untouched ng-pristine ng-invalid"><!----><!----><input _ngcontent-c15="" formcontrolname="phone" name="phone" placeholder="Enter your phone" type="text" value="" class="ng-untouched ng-pristine ng-invalid"><!----><!---->
+                        <h3 _ngcontent-c15="">Booking</h3>
+                        <form _ngcontent-c15="" novalidate="" class="ng-untouched ng-pristine ng-invalid contactform ">
+                            <label>Booking Type</label>
+                            <select class="bookingtype">
+                                <option value="">Visit Us At The Studio</option>
+                                <option value="">For Home Visits</option>
+                            </select>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label> Time</label>
+                                    <input _ngcontent-c15="" formcontrolname="name" name="select_date" placeholder="<?php echo date("H:i:s a");?>" value="<?php echo date("H:i:s a");?>" type="time" class="ng-untouched ng-pristine ng-invalid"><!---->
+
+                                </div>
+                                <div class="col-md-7">
+                                    <label> Date</label>
+                                    <input _ngcontent-c15="" formcontrolname="name" name="select_time" placeholder="<?php echo date("Y-m-d");?>" type="date" class="ng-untouched ng-pristine ng-invalid"><!---->
+
+                                </div>
+                            </div>
+                            <input _ngcontent-c15="" formcontrolname="name" name="name" placeholder="Enter your full name" type="text" class="ng-untouched ng-pristine ng-invalid"><!---->
+                            <input _ngcontent-c15="" formcontrolname="email" name="email" placeholder="Enter your email" type="email" value="" class="ng-untouched ng-pristine ng-invalid"><!---->
+                            <input _ngcontent-c15="" formcontrolname="phone" name="phone" placeholder="Enter your phone" type="text" value="" class="ng-untouched ng-pristine ng-invalid"><!---->
                             <textarea _ngcontent-c15="" formcontrolname="query" name="query" placeholder="Enter your query" class="ng-untouched ng-pristine ng-invalid"></textarea>
-                            <!----><!----><button _ngcontent-c15="" class="sendBtn" type="submit">Send</button>
+                            <button _ngcontent-c15="" class="sendBtn" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
@@ -29,6 +48,10 @@ $this->load->view('layout/header');
                         <li _ngcontent-c15="">
                             <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
                             <p _ngcontent-c15="">C-44,Shop No.2,<br _ngcontent-c15="">Street no. 15, Mabhu Vihar <br/>New Delhi,  110092 India</p>
+                        </li>
+                        <li _ngcontent-c15="">
+                            <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
+                            <p _ngcontent-c15="">Pocket B, 218, Mayur Vihar <br _ngcontent-c15="">New Delhi, 110091 India</p>
                         </li>
                         <li _ngcontent-c15=""><i _ngcontent-c15="" class="fas fa-envelope"></i><a _ngcontent-c15="" href="mailto:support@styletreatstudio.com">support@styletreatstudio.com</a></li>
                         <li _ngcontent-c15="">

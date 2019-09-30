@@ -145,7 +145,7 @@
                                 <div  class="container">
 
 
-                                    <ul _ngcontent-c12="" class="appLink headerdownloadlogo">
+                                    <ul _ngcontent-c12="" class="appLink headerdownloadlogo hideonmobile">
                                         <li _ngcontent-c12="">
                                             <a _ngcontent-c12="" href="#" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/google-play.png"></a>
                                         </li>
@@ -194,7 +194,7 @@
                                         <nav  class="mainMenu hidden_mobile">
                                             <ul >
                                                 <li  class="loggedIn logIn" id="mainMenuLi">
-                                                    <!----><a  href="javascript:;" id="loginSignup" class="ng-star-inserted btn btn-danger gradiantback booking_button" style="color:white"><i class="fa fa-edit"></i> Book Now </a>
+                                                    <!----><a  href="<?php echo site_url("contact-us") ?>" id="loginSignup" class="ng-star-inserted btn btn-danger gradiantback booking_button" style="color:white"><i class="fa fa-edit"></i> Book Now </a>
                                                     <!---->
                                                     <div  class="logOutBtnCnt"><span  class="logOutBtn">Logout</span></div>
                                                 </li>
@@ -252,7 +252,7 @@
                                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Know our Story</a>
+                                            <a class="nav-link" href="<?php echo site_url("aboutus") ?>">Know Our Story</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Services</a>
@@ -264,10 +264,10 @@
                                             <a class="nav-link" href="#">E-Shop</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="<?php echo site_url("contact-us") ?>">Contact</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">FAQ's</a>
+                                            <a class="nav-link" href="<?php echo site_url("faqs") ?>">FAQ's</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Our Portfolio</a>
