@@ -58,6 +58,9 @@ $route['contact-us'] = 'Shop/contactus';
 $route['appointment'] = 'Shop/appointment';
 $route['subscribe'] = 'Shop/subscribe';
 $route['aboutus'] = 'Shop/aboutus';
+$route['services'] = 'Shop/services';
+
+
 $route['reviews'] = 'Shop/reviews';
 $route['faqs'] = 'Shop/faqs';
 $route['sitemap\.xml'] = "Sitemap/index";
