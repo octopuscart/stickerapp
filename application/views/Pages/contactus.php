@@ -24,12 +24,12 @@ $this->load->view('layout/header');
                             <div class="row">
                                 <div class="col-md-5">
                                     <label> Time</label>
-                                    <input _ngcontent-c15="" formcontrolname="name" name="select_date" placeholder="<?php echo date("H:i:s a");?>" value="<?php echo date("H:i:s a");?>" type="time" class="ng-untouched ng-pristine ng-invalid"><!---->
+                                    <input _ngcontent-c15="" formcontrolname="name" name="select_date" placeholder="<?php echo date("H:i:s a"); ?>" value="<?php echo date("H:i:s a"); ?>" type="time" class="ng-untouched ng-pristine ng-invalid"><!---->
 
                                 </div>
                                 <div class="col-md-7">
                                     <label> Date</label>
-                                    <input _ngcontent-c15="" formcontrolname="name" name="select_time" placeholder="<?php echo date("Y-m-d");?>" type="date" class="ng-untouched ng-pristine ng-invalid"><!---->
+                                    <input _ngcontent-c15="" formcontrolname="name" name="select_time" placeholder="<?php echo date("Y-m-d"); ?>" type="date" class="ng-untouched ng-pristine ng-invalid"><!---->
 
                                 </div>
                             </div>
@@ -70,6 +70,24 @@ $this->load->view('layout/header');
             </div>
         </div>
     </section>
+    <section _ngcontent-c15="" class="cntctFrmCntSec" style="    padding: 20px;">
+        <div _ngcontent-c15="" class="">
+            <div _ngcontent-c15="" class="">
+                <div class="row">
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.895155662416!2d77.30241889323167!3d28.63604602902372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb0ef8ed0cc1%3A0xb516b15b6e60fb8a!2sStyle%20Treat%20Studios!5e0!3m2!1sen!2sin!4v1569857352830!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14009.434517814725!2d77.306801!3d28.6190118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xce43ae7cc83edc8c!2sStyle%20Treat%20Studios!5e0!3m2!1sen!2sin!4v1569857637922!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
     <section _ngcontent-c15="" class="cntctFrmCntSec">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- STS Display ad 2 -->
