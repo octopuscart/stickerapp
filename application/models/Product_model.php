@@ -75,7 +75,7 @@ class Product_model extends CI_Model {
         $points = ($point) ?
                 " and " . $wordsz[$point / 10] . " " .
                 $wordsz[$point = $point % 10] : '';
-        return "Only ".globle_currency . $result . " " . ($points ? "" . $points . " Cents" : "") . "";
+        return "Only " . globle_currency . $result . " " . ($points ? "" . $points . " Cents" : "") . "";
     }
 
     ///*******  Get data for deepth of the array  ********///
@@ -87,7 +87,7 @@ class Product_model extends CI_Model {
         $container = "";
         foreach ($category as $ckey => $cvalue) {
             $container .= $this->stringCategories($cvalue['id']);
-            $container .=", " . $cvalue['id'];
+            $container .= ", " . $cvalue['id'];
         }
         return $container;
     }
@@ -424,7 +424,7 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
         $this->db->where('parent_id', $category_id);
         $this->db->order_by("display_index");
         $query = $this->db->get('category');
-        
+
         $category = $query->result_array();
         $container = [];
         foreach ($category as $ckey => $cvalue) {
@@ -845,6 +845,39 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
                 $display_index++;
             }
         }
+    }
+
+    function serviceModel() {
+        $servicehire = array("title" => "Hair", "service" =>
+            [
+                array("title" => 'Hair Spa', "checked" => false),
+                array("title" => 'Hair Colour', "checked" => false),
+                array("title" => 'Keratine', "checked" => false),
+                array("title" => 'Smoothening', "checked" => false),
+                array("title" => 'Rebonding', "checked" => false),
+                array("title" => 'Hair Cut', "checked" => false),
+                array("title" => 'Hair Styling', "checked" => false),
+        ]);
+        $serviceskin = array("title" => "Skin", "service" =>
+            [
+                array("title" => 'Skin Treatment', "checked" => false),
+                array("title" => 'Body Polish', "checked" => false),
+                array("title" => 'Waxing', "checked" => false),
+                array("title" => 'Facial(s)', "checked" => false),
+                array("title" => 'Face Treatment', "checked" => false),
+        ]);
+        $servicebeauty = array("title" => "Beauty", "service" =>
+            [
+                array("title" => 'Clean Up', "checked" => false),
+                array("title" => 'Manicure/Hand spa', "checked" => false),
+                array("title" => 'Pedicure/Foot Spa', "checked" => false),
+                array("title" => 'Nail Designing', "checked" => false),
+                array("title" => 'Eyelash Extensions', "checked" => false),
+                array("title" => 'Make up & Hair Do', "checked" => false),
+                array("title" => 'Bridal Packages', "checked" => false),
+                array("title" => 'Thread work', "checked" => false),
+        ]);
+        return [$servicehire, $serviceskin, $servicebeauty];
     }
 
 }

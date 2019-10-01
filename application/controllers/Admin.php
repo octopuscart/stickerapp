@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Account extends CI_Controller {
+class Admin extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
@@ -25,41 +25,12 @@ class Account extends CI_Controller {
         }
     }
 
-    public function mywallet() {
-
-
-        if ($this->user_id == 0) {
-            redirect('Account/login');
-        }
-        $data = array();
-        $this->load->view('Account/mywallet', $data);
-    }
-
-    public function giftcoupons() {
-
-
-        if ($this->user_id == 0) {
-            redirect('Account/login');
-        }
-        $data = array();
-        $this->load->view('Account/giftcoupons', $data);
-    }
-
-    public function newsletter() {
-
-
-        if ($this->user_id == 0) {
-            redirect('Account/login');
-        }
-        $data = array();
-        $this->load->view('Account/newsletter', $data);
-    }
-
     //Profile page
     public function profile2() {
 
-
-        $data1['countrylist'] = [];
+        $query = $this->db->get('country');
+        $countrylist = $query->result();
+        $data1['countrylist'] = $countrylist;
 
         if ($this->user_id == 0) {
             redirect('Account/login');
@@ -112,15 +83,9 @@ class Account extends CI_Controller {
     //login page
     //login page
     function login() {
-      
-            redirect('/');
-        
-//        redirect("CartGuest/checkoutInit");
-        $data1['msg'] = "";
 
-        $query = $this->db->get('country');
-        $countrylist = $query->result();
-        $data1['countrylist'] = $countrylist;
+        $data1['msg'] = "";
+        $data1['countrylist'] = [];
 
         $link = isset($_GET['page']) ? $_GET['page'] : '';
         $data1['next_link'] = $link;
@@ -164,17 +129,14 @@ class Account extends CI_Controller {
 
                     $this->session->set_userdata('logged_in', $sess_data);
 
-                    if ($link == 'checkoutInit') {
-                        redirect('Cart/checkoutInit');
-                    }
 
-                    redirect('Account/profile');
+                    redirect('Admin/dashboard ');
                 } else {
                     $data1['msg'] = 'Invalid Email Or Password, Please Try Again';
                 }
             } else {
                 $data1['msg'] = 'Invalid Email Or Password, Please Try Again';
-                redirect('Account/login', $data1);
+                redirect('Admin/login', $data1);
             }
         }
 
@@ -250,7 +212,7 @@ class Account extends CI_Controller {
         }
 
 
-        $this->load->view('Account/login', $data1);
+        $this->load->view('Admin/login', $data1);
     }
 
     // Logout from admin page
@@ -279,151 +241,19 @@ class Account extends CI_Controller {
     }
 
     //orders list
-    function orderList() {
+    function dashboard() {
         if ($this->user_id == 0) {
-            redirect('Account/login');
+            redirect('Admin/login');
         }
-        $this->db->where('usertype', $this->user_id);
+
+        $this->db->order_by('id desc');
         $query = $this->db->get('web_order');
-        $orderlist = $query->result();
+        $bookinglist = $query->result();
 
-        $orderslistr = [];
-        foreach ($orderlist as $key => $value) {
-
-            $this->db->order_by('id', 'desc');
-            $this->db->where('order_id', $value->id);
-            $query = $this->db->get('user_order_status');
-            $status = $query->row();
-            if ($status) {
-                $value->status = $status ? $status->status : $value->status;
-               
-            }
-            else{
-                $value->status = "--";
-            }
-             array_push($orderslistr, $value);
-        }
-        $data['orderslist'] = $orderslistr;
-
-
-        $this->load->view('Account/orderList', $data);
+        $data = [];
+        $data['bookinglist'] = $bookinglist;
+        $this->load->view('Admin/dashboard', $data);
     }
-
-    //Address management
-    function address() {
-        if ($this->user_id == 0) {
-            redirect('Account/login');
-        }
-        $user_address_details = $this->User_model->user_address_details($this->user_id);
-        $data['user_address_details'] = $user_address_details;
-
-        //Get Address
-        if (isset($_GET['setAddress'])) {
-            $this->db->set('status', "");
-            $this->db->where('user_id', $this->user_id);
-            $this->db->update('shipping_address');
-
-            $adid = $_GET['setAddress'];
-            $this->db->set('status', "default");
-            $this->db->where('id', $adid);
-            $this->db->update('shipping_address');
-            redirect('Account/address');
-        }
-
-        //add New address
-        if (isset($_POST['add_address'])) {
-            $this->db->set('status', "");
-            $this->db->where('user_id', $this->user_id);
-            $this->db->update('shipping_address');
-
-            $category_array = array(
-                'address1' => $this->input->post('address1'),
-                'address2' => $this->input->post('address2'),
-                'city' => $this->input->post('city'),
-                'state' => $this->input->post('state'),
-//                'pincode' => $this->input->post('pincode'),
-                'country' => $this->input->post('country'),
-                'user_id' => $this->user_id,
-                'status' => 'default',
-            );
-            $this->db->insert('shipping_address', $category_array);
-            redirect('Account/address');
-        }
-
-
-        $this->load->view('Account/address', $data);
-    }
-
- 
-
-    function profile() {
-
-        if ($this->user_id == 0) {
-            redirect('Account/login');
-        }
-
-        $data = array();
-        // echo password_hash('rasmuslerdorf', PASSWORD_DEFAULT)."\n";
-        $userid = $this->user_id;
-        $query = $this->db->get_where("admin_users", array("id" => $userid));
-        $userdata = $query->row();
-        $data['userdata'] = $userdata;
-
-
-        $query = $this->db->get("country");
-        $countrydata = $query->result_array();
-        $data['country'] = $countrydata;
-
-        $config['upload_path'] = 'assets/profile_image';
-        $config['allowed_types'] = '*';
-
-        if (isset($_POST['changePassword'])) {
-            $c_password = $this->input->post('c_password');
-            $n_password = $this->input->post('n_password');
-            $r_password = $this->input->post('r_password');
-            $dc_password = $userdata->password;
-            if (md5($c_password) == $dc_password) {
-                if ($r_password == $n_password) {
-                    $message = array(
-                        'title' => 'Password Changed.',
-                        'text' => 'Your password has been changed successfully.',
-                        'show' => true,
-                        'icon' => 'happy.png'
-                    );
-                    $this->session->set_flashdata("checklogin", $message);
-
-
-                    $passowrd = array("password" => md5($n_password), "password2" => $n_password);
-                    $this->db->set($passowrd);
-                    $this->db->where("id", $userid);
-                    $this->db->update("admin_users");
-
-                    redirect("profile");
-                } else {
-                    $message = array(
-                        'title' => 'Password Error.',
-                        'text' => 'Entered password does not match.',
-                        'show' => true,
-                        'icon' => 'warn.png'
-                    );
-                    $this->session->set_flashdata("checklogin", $message);
-                }
-            } else {
-                $message = array(
-                    'title' => 'Password Errors.',
-                    'text' => 'Current password does not match.',
-                    'show' => true,
-                    'icon' => 'warn.png'
-                );
-                $this->session->set_flashdata("checklogin", $message);
-            }
-        }
-
-
-        $this->load->view('Account/profile2', $data);
-    }
-
- 
 
 }
 

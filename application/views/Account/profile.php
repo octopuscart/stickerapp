@@ -1,5 +1,5 @@
 <?php
-$this->load->view('layout/header');
+$this->load->view('layout/headerAdmin');
 ?>
 
 <section class="sub-bnr" data-stellar-background-ratio="0.5" style="margin-bottom: 10px;">
@@ -33,10 +33,7 @@ $this->load->view('layout/header');
             <div class="news-post">
                 <div class="row"> 
 
-                    <?php
-                    $this->load->view('Account/sidebar');
-                    ?>
-
+                 
 
                     <div class="col-md-9 checkout-form">
                         <?php
@@ -211,7 +208,7 @@ $this->load->view('layout/header');
 
 
             <?php
-            $this->load->view('layout/footer');
+            $this->load->view('layout/footerAdmin');
             ?>
             <script>
                 $(function () {

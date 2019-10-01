@@ -30,23 +30,26 @@ class Shop extends CI_Controller {
         $data['checksent'] = 0;
 
 
-        if (isset($_POST['sendmessage'])) {
-            if ($this->input->post('anti_spam') == 8) {
-                
-            } else {
-                redirect('contact-us?error=cw');
-            }
+        if (isset($_POST['booking'])) {
+           
             $web_enquiry = array(
-                'last_name' => "",
-                'first_name' => $this->input->post('full_name'),
+                'name' => $this->input->post('name'),
                 'email' => $this->input->post('email'),
-                'contact' => $this->input->post('contact'),
-                'subject' => $this->input->post('subject'),
-                'message' => $this->input->post('message'),
+                'contact' => $this->input->post('contact_no'),
+                'select_date' => $this->input->post('select_date'),
+                'select_time' => $this->input->post('select_time'),
+                'booking_type' => $this->input->post('book_type'),
+                'extra_remark' => $this->input->post('message'),
+                'select_table' => "",
+                'people' => "",
+                "usertype" => "Customer",
                 'datetime' => date("Y-m-d H:i:s a"),
+                "order_source" => "Mobile App",
+                'order_date' => date("Y-m-d"),
+                'status' => "0",
             );
 
-            $this->db->insert('web_enquiry', $web_enquiry);
+            $this->db->insert('web_order', $web_enquiry);
 
             $emailsender = email_sender;
             $sendername = email_sender_name;
@@ -62,28 +65,22 @@ class Shop extends CI_Controller {
     public function aboutus() {
         $this->load->view('Pages/aboutus');
     }
-    
+
     public function services() {
         $this->load->view('Pages/services');
     }
-    
 
-     public function privacypolicy() {
+    public function privacypolicy() {
         $this->load->view('Pages/privacypolicy');
     }
-    
- 
+
     public function appointment() {
         $this->load->view('Pages/appointment');
     }
 
-    
     public function faqs() {
         $this->load->view('Pages/faqs');
     }
-
- 
-
 
     public function subscribe() {
         if (isset($_POST['submit'])) {
@@ -133,15 +130,8 @@ class Shop extends CI_Controller {
         $this->load->view('Pages/subscribe');
     }
 
- 
-
-   
-
     public function reviews() {
         $this->load->view('Pages/reviews');
     }
-
-
-
 
 }
