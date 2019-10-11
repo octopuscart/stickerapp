@@ -849,7 +849,7 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
 
     function serviceModel() {
 
-        $this->db->select("category_name as title");
+        $this->db->select("category_name as title, id");
         $this->db->order_by('display_index');
         $query = $this->db->get('category');
 
