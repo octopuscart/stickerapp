@@ -2,7 +2,12 @@
 $this->load->view('layout/headerAdmin');
 ?>
 
-
+<style>
+    .small_table td, .small_table th {
+    padding: 0px 5px;
+    line-height: 18px;
+}
+</style>
 <section class="sub-bnr" data-stellar-background-ratio="0.5" style="margin-bottom: 10px;">
     <div class="position-center-center">
         <div class="container">
@@ -22,10 +27,10 @@ $this->load->view('layout/headerAdmin');
                 <thead>
                     <tr>
                         <th style="width: 70px">S. No.</th>
-                        <th style="width:250px">Booking Information</th>
+                        <th style="width:115px">Booking No.</th>
                         <th style="width:300px">Customer Information</th>
-
-                        <th>Status</th>
+                        <th style="width:300px">Services</th>
+                        <th>Booing Dat/Time</th>
                         <th style="width:100px"></th>
 
                     </tr>
@@ -42,27 +47,19 @@ $this->load->view('layout/headerAdmin');
                                 </td>
                                 <td>
 
-                                    <table class="small_table">
-                                        <tr>
-                                            <th>Booking No.</th>
-                                            <td>: <?php echo $value->id; ?></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Guest(s)</th>
-                                            <td>: <?php echo $value->people; ?></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Table No.</th>
-                                            <td>: <?php echo $value->select_table; ?></td>
-                                        </tr>
-                                    </table>
+                                    <?php echo $value->id; ?>
+
 
                                 </td>
 
                                 <td>
 
-                                    <b> <?php echo $value->first_name . " " . $value->last_name; ?></b>
+                                
                                     <table class="small_table">
+                                         <tr>
+                                            <th><i class="fa fa-user"></i> &nbsp; </th>
+                                            <td class="overtext">  <?php echo $value->name; ?></td>
+                                        </tr>
                                         <tr>
                                             <th><i class="fa fa-envelope"></i> &nbsp; </th>
                                             <td class="overtext"> <a href="#" title="<?php echo $value->email; ?>"><?php echo $value->email; ?></a></td>
@@ -76,6 +73,11 @@ $this->load->view('layout/headerAdmin');
 
                                 </td>
 
+                                <td>
+                                    <?php
+                                    echo $value->select_table . "<br/>";
+                                    ?>
+                                </td>
 
 
                                 <td>
@@ -87,15 +89,15 @@ $this->load->view('layout/headerAdmin');
                                     <a href="<?php echo site_url("order/orderdetails/" . $value->id); ?>" class="btn btn-primary btn-sm" style="    margin-top: 20%;">Update <i class="fa fa-arrow-circle-right"></i></a>
                                 </td>
                             </tr>
-        <?php
-        $count++;
-    }
-} else {
-    ?>
+                            <?php
+                            $count++;
+                        }
+                    } else {
+                        ?>
                     <h4><i class="fa fa-warning"></i> No order found</h4>
-                        <?php
-                    }
-                    ?>
+                    <?php
+                }
+                ?>
 
                 </tbody>
             </table>

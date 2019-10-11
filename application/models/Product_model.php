@@ -848,6 +848,26 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
     }
 
     function serviceModel() {
+
+//        $this->db->where('attribute_id', $id);
+        $this->db->order_by('display_index');
+        $query = $this->db->get('category');
+
+        $servicecategory = $query->result_array();
+
+        $services = [];
+        foreach ($servicecategory as $key => $value) {
+            $serid = $value['id'];
+            $this->db->select("service_name as title, 'checked' as 'false'");
+            $this->db->where('category_id', $serid);
+            $this->db->order_by('display_index');
+            $query = $this->db->get('category_items');
+            $serviceresult = $query->result_array();
+            $value['service'] = $serviceresult;
+            array_push($services, $value);
+        }
+
+
         $servicehire = array("title" => "Hair", "service" =>
             [
                 array("title" => 'Hair Spa', "checked" => false),
@@ -877,7 +897,18 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
                 array("title" => 'Bridal Packages', "checked" => false),
                 array("title" => 'Thread work', "checked" => false),
         ]);
-        return [$servicehire, $serviceskin, $servicebeauty];
+
+        foreach ($servicebeauty['service'] as $key => $svalue) {
+            $custom_array = array(
+                'service_name' => $svalue['title'],
+                'description' => "",
+                'display_index' => 1,
+                'category_id' => "3",
+            );
+           # $this->db->insert('category_items', $custom_array);
+        }
+
+        return $services;
     }
 
 }

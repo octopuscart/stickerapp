@@ -18,6 +18,9 @@
 
         <!-- Custom styles for this template -->
         <link href="https://getbootstrap.com/docs/4.0/examples/dashboard/dashboard.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet" />
+        <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
     </head>
 
     <body>
@@ -48,7 +51,7 @@
                     <div class="sidebar-sticky">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">
+                                <a class="nav-link active" href="<?php echo site_url("Admin/dashboard");?>">
                                     <span data-feather="home"></span>
                                     Dashboard <span class="sr-only">(current)</span>
                                 </a>
@@ -62,7 +65,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
                                     <span data-feather="shopping-cart"></span>
-                                    Products
+                                    Services
                                 </a>
                             </li>
                             <li class="nav-item">
