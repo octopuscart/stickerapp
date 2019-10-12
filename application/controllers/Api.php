@@ -16,6 +16,19 @@ class Api extends REST_Controller {
     public function index() {
         $this->load->view('welcome_message');
     }
+    
+    function updateCurd_post() {
+        $fieldname = $this->post('name');
+        $value = $this->post('value');
+        $pk_id = $this->post('pk');
+        $tablename = $this->post('tablename');
+        if ($this->checklogin) {
+            $data = array($fieldname => $value);
+            $this->db->set($data);
+            $this->db->where("id", $pk_id);
+            $this->db->update($tablename, $data);
+        }
+    }
 
     //function for product list
     function loginOperation_get() {
@@ -206,6 +219,11 @@ class Api extends REST_Controller {
     //function for product list
     function services_get() {
         $services = $this->Product_model->serviceModel();
+        $this->response($services);
+    }
+    
+    function servicesAdmin_get() {
+        $services = $this->Product_model->serviceModel2();
         $this->response($services);
     }
 

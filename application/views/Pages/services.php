@@ -33,16 +33,10 @@ $this->load->view('layout/header');
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
                                 <?php
-                                $servicehire = ['Hair Spa',
-                                    'Hair Colour',
-                                    'Keratine',
-                                    'Smoothening',
-                                    'Rebonding',
-                                    'Hair Cut',
-                                    'Hair Styling',];
-                                foreach ($servicehire as $key => $value) {
+                                $servicehire = $services['1'];
+                                foreach ($servicehire['service'] as $key => $value) {
                                     ?>
-                                    <li _ngcontent-c4=""><a _ngcontent-c4="" title="<?php echo $value; ?>"><i class="fa fa-arrow-right"></i>  <?php echo $value; ?></a></li>
+                                    <li _ngcontent-c4=""><a href="<?php echo site_url("Shop/serviceDetails/" . $value['id']) ?>" title="<?php echo $value['service_name']; ?>"><i class="fa fa-arrow-right"></i>  <?php echo $value['service_name']; ?></a></li>
                                     <?php
                                 }
                                 ?>
@@ -58,16 +52,10 @@ $this->load->view('layout/header');
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
                                 <?php
-                                $servicehire = [
-                                    'Skin Treatment',
-                                    'Body Polish',
-                                    'Waxing',
-                                    'Facial(s)',
-                                    'Face Treatment'
-                                ];
-                                foreach ($servicehire as $key => $value) {
+                                $servicehire = $services['2'];
+                                foreach ($servicehire['service'] as $key => $value) {
                                     ?>
-                                    <li _ngcontent-c4=""><a _ngcontent-c4="" title="<?php echo $value; ?>"><i class="fa fa-arrow-right"></i>  <?php echo $value; ?></a></li>
+                                    <li _ngcontent-c4=""><a href="<?php echo site_url("Shop/serviceDetails/" . $value['id']) ?>" title="<?php echo $value['service_name']; ?>"><i class="fa fa-arrow-right"></i>  <?php echo $value['service_name']; ?></a></li>
                                     <?php
                                 }
                                 ?>
@@ -82,22 +70,13 @@ $this->load->view('layout/header');
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
                                 <?php
-                                $servicehire = [
-                                    'Clean Up',
-                                    'Manicure/Hand spa',
-                                    'Pedicure/Foot Spa',
-                                    'Nail Designing',
-                                    'Eyelash Extensions',
-                                    'Make up & Hair Do',
-                                    'Bridal Packages',
-                                    'Thread work'
-                                ];
-                                foreach ($servicehire as $key => $value) {
+                                $servicehire = $services['3'];
+                                foreach ($servicehire['service'] as $key => $value) {
                                     ?>
-                                    <li _ngcontent-c4=""><a _ngcontent-c4="" title="<?php echo $value; ?>"><i class="fa fa-arrow-right"></i>   <?php echo $value; ?></a></li>
+                                    <li _ngcontent-c4=""><a href="<?php echo site_url("Shop/serviceDetails/" . $value['id']) ?>" title="<?php echo $value['service_name']; ?>"><i class="fa fa-arrow-right"></i>  <?php echo $value['service_name']; ?></a></li>
                                     <?php
                                 }
-                                ?>                        
+                                ?>                      
                             </ul>
                             </p>
                         </div>

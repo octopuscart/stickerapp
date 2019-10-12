@@ -5,15 +5,17 @@ $this->load->view('layout/header');
 <router-outlet _ngcontent-c1=""></router-outlet>
 <div _nghost-c6="" class="ng-star-inserted slick-slider-header" style="background: white;">
     <div class="bigSlider owl-carousel  carousel center r-header r-white-bg slick-initialized r slick-dotted">
-        <div class="owl-items">   <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1564992111817.jpg"></div>
-        <div class="owl-items">    <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1564991942438.jpg"></div>
-        <div class="owl-items">   <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1564992177143.jpg"></div>
-        <div class="owl-items">   <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1565698237366.jpg"></div>
-        <div class="owl-items">   <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1565343527584.jpg"></div>
-        <div class="owl-items">   <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1565185623454.jpg"></div>
-        <div class="owl-items">   <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1565250046591.jpg"></div>
-        <div class="owl-items">    <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1564992111817.jpg"></div>
-        <div class="owl-items">   <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="https://cdn.yesmadam.com/images/live/app/banner/1564991942438.jpg"></div>
+
+        <?php
+        foreach ($slider_images as $key => $value) {
+            ?>
+            <div class="owl-items">
+                <img _ngcontent-c7="" alt="" class="bannerResize" width="100%" src="<?php echo base_url(); ?>assets/sliders/<?php echo $value['image']; ?>">
+            </div>
+            <?php
+        }
+        ?>
+
 
     </div>
 

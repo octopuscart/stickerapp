@@ -10,119 +10,99 @@
         <?php
         meta_tags();
         ?>
-
-        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/dashboard/">
-
         <!-- Bootstrap core CSS -->
         <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+        <link href="<?php echo base_url(); ?>assets/admin/style.css" rel="stylesheet">
+
         <!-- Custom styles for this template -->
-        <link href="https://getbootstrap.com/docs/4.0/examples/dashboard/dashboard.css" rel="stylesheet">
-        <link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet" />
-        <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
-<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="<?php echo base_url(); ?>assets/angular/angular.min.js"></script>
     </head>
 
-    <body>
-        <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#" style="    text-align: center;">
-                <img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="height: 30px;">
-            </a>
-            <ul class="navbar-nav px-3">
-                <li class="nav-item text-nowrap">
+    <body ng-app="App" class="stretched">
+        <div ng-controller="AdminController" id="wrapper" class="clearfix">
+            <script>
+                var App = angular.module('App', []).config(function ($interpolateProvider, $httpProvider) {
+                //$interpolateProvider.startSymbol('{$');
+                //$interpolateProvider.endSymbol('$}');
+                $httpProvider.defaults.headers.common = {};
+                $httpProvider.defaults.headers.post = {};
+                });
+                var baseurl = "<?php echo base_url(); ?>index.php/";
+                var avaiblecredits = 0;
+            </script>
+
+            <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+                <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#" style="    text-align: center;">
+                    <img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="height: 30px;">
+                </a>
+                <ul class="navbar-nav px-3">
+                    <li class="nav-item text-nowrap">
+                        <?php
+                        $session_data = $this->session->userdata('logged_in');
+                        if ($session_data) {
+                            ?>
+                            <a class="nav-link" href="<?php echo site_url('Admin/logout') ?>">Sign out</a>
+                            <?php
+                        }
+                        ?>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="container-fluid">
+                <div class="row">
                     <?php
-                    $session_data = $this->session->userdata('logged_in');
                     if ($session_data) {
                         ?>
-                        <a class="nav-link" href="<?php echo site_url('Admin/logout') ?>">Sign out</a>
+                        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                            <div class="sidebar-sticky">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="<?php echo site_url("Admin/dashboard"); ?>">
+                                            <i class="fa fa-home"></i>
+                                            Dashboard <span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo site_url("Admin/bookingReport") ?>">
+                                            <i class="fa fa-list-ol"></i>
+                                            Booking Reports
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo site_url("Admin/serviceCategory"); ?>">
+                                            <i class="fa fa-list-ul"></i>
+                                            Service Category
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo site_url("Admin/services"); ?>">
+                                            <i class="fa fa-shopping-cart "></i>
+                                            Services
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo site_url("Admin/customers"); ?>">
+                                            <i class="fa fa-user"></i>
+                                            Customers
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo site_url("Admin/sliderImages"); ?>">
+                                            <i class="fa fa-picture-o"></i>
+                                            Slider Images
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+
+
+                            </div>
+                        </nav>
                         <?php
                     }
                     ?>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="container-fluid">
-            <div class="row">
-                <?php
-                if ($session_data) {
-                ?>
-                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-                    <div class="sidebar-sticky">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="<?php echo site_url("Admin/dashboard");?>">
-                                    <span data-feather="home"></span>
-                                    Dashboard <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file"></span>
-                                    Orders
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="shopping-cart"></span>
-                                    Services
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="users"></span>
-                                    Customers
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="bar-chart-2"></span>
-                                    Reports
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="layers"></span>
-                                    Integrations
-                                </a>
-                            </li>
-                        </ul>
-
-                        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                            <span>Saved reports</span>
-                            <a class="d-flex align-items-center text-muted" href="#">
-                                <span data-feather="plus-circle"></span>
-                            </a>
-                        </h6>
-                        <ul class="nav flex-column mb-2">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Current month
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Last quarter
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Social engagement
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Year-end sale
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <?php
-                }
-                ?>
-                <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">

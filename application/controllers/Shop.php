@@ -19,7 +19,11 @@ class Shop extends CI_Controller {
     }
 
     public function index() {
-        $this->load->view('home');
+        $this->db->order_by('id desc');
+        $query = $this->db->get('slider_images');
+        $slider_images = $query->result_array();
+        $data['slider_images'] = $slider_images;
+        $this->load->view('home', $data);
     }
 
     public function menu() {
@@ -31,7 +35,7 @@ class Shop extends CI_Controller {
 
 
         if (isset($_POST['booking'])) {
-           
+
             $web_enquiry = array(
                 'name' => $this->input->post('name'),
                 'email' => $this->input->post('email'),
@@ -67,7 +71,18 @@ class Shop extends CI_Controller {
     }
 
     public function services() {
-        $this->load->view('Pages/services');
+        $services = $this->Product_model->serviceModel3();
+        $data['services'] = $services;
+        $this->load->view('Pages/services', $data);
+    }
+
+    public function serviceDetails($serviceid) {
+        $this->db->where('id', $serviceid);
+        $this->db->order_by('display_index');
+        $query = $this->db->get('category_items');
+        $services = $query->row();
+        $data['service'] = $services;
+        $this->load->view('Pages/servicesDetails', $data);
     }
 
     public function privacypolicy() {
