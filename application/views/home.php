@@ -128,17 +128,7 @@ $this->load->view('layout/header');
                                                    <?php echo $value['review']; ?>
                                                 </p>
                                             </div>
-                                            <div _ngcontent-c11="" class="cstmrBtcanRt">
-                                                <div _ngcontent-c11="" class="fbRvwCnt">
-                                                    <div _ngcontent-c11="" class="fbCnt"> Reviewed on: <i _ngcontent-c11="" class="fab fa-google-plus-g"></i></div>
-                                                </div>
-    <!--                                                <div _ngcontent-c11="" class="btcianCnt"><span _ngcontent-c11="" class="prfHired">Professional Hired</span>
-                                                    <div _ngcontent-c11="" class="btcianNmCnt">
-                                                        <div _ngcontent-c11="" class="btcianImg"><img _ngcontent-c11="" alt="" style="    background-color: #fff" src="https://cdn.yesmadam.com/images/5_1.png"></div>
-                                                        <div _ngcontent-c11="" class="btcianNm"><span _ngcontent-c11="" class="nm">Sangya</span><span _ngcontent-c11="" class="rating"><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i><i _ngcontent-c11="" class="fas fa-star"></i></span></div>
-                                                    </div>
-                                                </div>-->
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                     <?php
