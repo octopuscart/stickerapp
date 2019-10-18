@@ -24,8 +24,33 @@ $this->load->view('layout/header');
     <section _ngcontent-c9="" class="whyYMDMSec">
         <div _ngcontent-c9="" class="container">
             <div _ngcontent-c9="" class="secHdngCnt">
-                <h1 _ngcontent-c9="">Why Style Treat Studio</h1></div>
+                <h1 _ngcontent-c9="">Highlights</h1></div>
             <div _ngcontent-c9="" class="wyYMDMCnt">
+                
+                <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
+                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-2.jpg"></div>
+                    <div _ngcontent-c9="" class="wyYMDMOptnTxt">
+                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Inhouse Studio </h2>
+                        <p _ngcontent-c9=""> We have Experienced &amp; Premium beauty professionals in the list of Yes MADAM.All beautician come on-board after pass our standard and cosmetics test. </p>
+                    </div>
+                </div>
+                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
+                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-2.jpg"></div>
+                    <div _ngcontent-c9="" class="wyYMDMOptnTxt">
+                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Venue make up</h2>
+                        <p _ngcontent-c9=""> We have Experienced &amp; Premium beauty professionals in the list of Yes MADAM.All beautician come on-board after pass our standard and cosmetics test. </p>
+                    </div>
+                </div>
+                
+                
+                <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
+                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-1.jpg"></div>
+                    <div _ngcontent-c9="" class="wyYMDMOptnTxt">
+                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Pick up/ Drop Facility </h2>
+                        <p _ngcontent-c9=""> Save 40-50% of your money compared to other local Salon.You will also get assured satisfaction with our services because your hard-earned money deserves 100% satisfaction. </p>
+                    </div>
+                </div>
+                
                 <div _ngcontent-c9="" class="wyYMDMOptn">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-3.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
@@ -33,28 +58,8 @@ $this->load->view('layout/header');
                         <p _ngcontent-c9=""> All our beautician use only Branded and genuine products in sealed &amp; Single time use Sachet packets.We provide 100% transparency in our Products. </p>
                     </div>
                 </div>
-                <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
-                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-2.jpg"></div>
-                    <div _ngcontent-c9="" class="wyYMDMOptnTxt">
-                        <h2 _ngcontent-c9="" class="wyYMDMHdng">In House Studio</h2>
-                        <p _ngcontent-c9=""> We have Experienced &amp; Premium beauty professionals in the list of Yes MADAM.All beautician come on-board after pass our standard and cosmetics test. </p>
-                    </div>
-                </div>
-                <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
-                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-1.jpg"></div>
-                    <div _ngcontent-c9="" class="wyYMDMOptnTxt">
-                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Pick And Drop Service </h2>
-                        <p _ngcontent-c9=""> Save 40-50% of your money compared to other local Salon.You will also get assured satisfaction with our services because your hard-earned money deserves 100% satisfaction. </p>
-                    </div>
-                </div>
 
-                <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
-                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/wym-2.jpg"></div>
-                    <div _ngcontent-c9="" class="wyYMDMOptnTxt">
-                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Venue Make Ups</h2>
-                        <p _ngcontent-c9=""> We have Experienced &amp; Premium beauty professionals in the list of Yes MADAM.All beautician come on-board after pass our standard and cosmetics test. </p>
-                    </div>
-                </div>
+               
             </div>
         </div>
 
