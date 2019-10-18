@@ -176,9 +176,9 @@ $this->load->view('layout/header');
 
         <section _ngcontent-c12="" class="homeVideoSec ng-star-inserted">
             <div _ngcontent-c12="" class="container">
-                <div _ngcontent-c12="" class="vdoBnr" style="background-image: url('assets/imgs/video-bg.jpg')!important; "></div>
+                <div _ngcontent-c12="" class="vdoBnr" style="background-image: url('')!important; "></div>
                 <div _ngcontent-c12="" class="videoCont" id="">
-                    <!---->
+                    <img src="<?php echo base_url(); ?>assets/images/yslide.png"/>
                 </div>
             </div>
         </section>
