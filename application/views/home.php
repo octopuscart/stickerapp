@@ -240,13 +240,16 @@ $this->load->view('layout/header');
                 <div _ngcontent-c13="" class="mdaImgs">
                     <ul _ngcontent-c13="">
                         <li _ngcontent-c13="">
-                            <a _ngcontent-c13="" href="javascript:;"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/all-about-women.png"></a>
+                            <a _ngcontent-c13="" href="http://www.deethebaker.com/" target="_blank"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/brand/deethebaker.jpg"></a>
                         </li>
                         <li _ngcontent-c13="">
-                            <a _ngcontent-c13="" href="javascript:;"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/ANI.png"></a>
+                            <a _ngcontent-c13="" href="http://www.studysevenseas.com/" target="_blank"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/brand/studysevenseas.jpeg"></a>
                         </li>
                         <li _ngcontent-c13="">
-                            <a _ngcontent-c13="" href="javascript:;"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/business-standerd.png"></a>
+                            <a _ngcontent-c13="" href="http://www.timeouttravels.com/" target="_blank"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/brand/timeouttravels.jpeg"></a>
+                        </li>
+                        <li _ngcontent-c13="">
+                            <a _ngcontent-c13="" href="https://www.haritikajewellery.com" target="_blank"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/brand/haritikajewellery.jpeg"></a>
                         </li>
 
                     </ul>
