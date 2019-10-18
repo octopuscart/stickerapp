@@ -40,20 +40,6 @@ $this->load->view('layout/header');
 
 
 
-        <section style="background: white;text-align: center;">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- STS Display ad 1 horizontal -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-2246837719135984"
-                 data-ad-slot="8024107323"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                                                            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </section>
-
     </div>
 </app-about-us>
 <!--end of contant section-->

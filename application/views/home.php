@@ -69,19 +69,7 @@ $this->load->view('layout/header');
         </div>
     </section>
 
-    <section style="background: white;text-align: center;">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- STS Display ad 1 horizontal -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2246837719135984"
-             data-ad-slot="8024107323"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </section>
+  
     <!---->
     <!---->
     <app-customer-reviews _ngcontent-c6="" _nghost-c11="">
@@ -160,19 +148,7 @@ $this->load->view('layout/header');
 
             </div>
         </section>
-        <section style="background: white;text-align: center;">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- STS Display ad 2 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-2246837719135984"
-                 data-ad-slot="7359738829"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </section>
+       
     </app-customer-reviews>
 
     <app-welcome-rough-content _ngcontent-c6="" _nghost-c12="">
@@ -238,19 +214,7 @@ $this->load->view('layout/header');
             </div>
         </section>
     </app-welcome-rough-content>
-    <section style="background: white;text-align: center;">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- STS Display AD 3 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2246837719135984"
-             data-ad-slot="2107412149"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </section>
+
 
     <!---->
     <section _ngcontent-c6="" class="ourFeatureSec ng-star-inserted">

@@ -64,17 +64,7 @@ $this->load->view('layout/header');
                     </span>
                 </div>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- STS Display ad 2 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-2246837719135984"
-                 data-ad-slot="7359738829"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+           
             <div _ngcontent-c17="" class="othrPgsCnt">
                 <div _ngcontent-c17="" class="txtCnt beauticinaTxtCnt">
                     <h3 _ngcontent-c17="">BEAUTICIAN</h3>
@@ -105,17 +95,7 @@ $this->load->view('layout/header');
                     </span>
                 </div>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- STS Display ad 1 horizontal -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-2246837719135984"
-                 data-ad-slot="8024107323"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+         
             <div _ngcontent-c17="" class="othrPgsCnt">
                 <div _ngcontent-c17="" class="txtCnt msgThrpyTxtCnt">
                     <h3 _ngcontent-c17="">FRANCHISE ENQUIRY</h3>
