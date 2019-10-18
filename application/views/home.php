@@ -149,7 +149,7 @@ $this->load->view('layout/header');
     <app-welcome-rough-content _ngcontent-c6="" _nghost-c12="">
         <!---->
 
-        <section _ngcontent-c12="" class="homeVideoSec ng-star-inserted">
+<!--        <section _ngcontent-c12="" class="homeVideoSec ng-star-inserted">
             <div _ngcontent-c12="" class="container" style="padding: 0px;">
                 <div class="col-md-6">
                     <div class="hideonmobile">
@@ -170,7 +170,7 @@ $this->load->view('layout/header');
             </div>
 
 
-        </section>
+        </section>-->
 
 
 
