@@ -13,17 +13,14 @@ $this->load->view('layout/header');
         <div _ngcontent-c15="" class="container">
             <div _ngcontent-c15="" class="cntctFrmCnt">
                        <div _ngcontent-c15="" class="cntctAddress leftcontact">
-                    <h3 _ngcontent-c15="">Drop in our Office</h3>
+                    <h3 _ngcontent-c15="">Madhu Vihar Branch</h3>
                     <p _ngcontent-c15=""> We would love to hear from you. Drop us a Line or Call with your queries, feedback or concerns. </p>
                     <ul _ngcontent-c15="" class="adrsCnt">
                         <li _ngcontent-c15="">
                             <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
                             <p _ngcontent-c15="">C-44,Shop No.2,<br _ngcontent-c15="">Street no. 15, Mabhu Vihar <br/>New Delhi,  110092 India</p>
                         </li>
-                        <li _ngcontent-c15="">
-                            <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
-                            <p _ngcontent-c15="">Pocket B, 218, Mayur Vihar <br _ngcontent-c15="">New Delhi, 110091 India</p>
-                        </li>
+                       
                         <li _ngcontent-c15=""><i _ngcontent-c15="" class="fas fa-envelope"></i><a _ngcontent-c15="" href="mailto:support@styletreatstudio.com">support@styletreatstudio.com</a></li>
                         <li _ngcontent-c15="">
                             <i _ngcontent-c15="" class="fas fa-mobile-alt"></i>
@@ -40,7 +37,7 @@ $this->load->view('layout/header');
                 </div>
                 <div _ngcontent-c15="" class="cntctFrmsCnt">
                     <div _ngcontent-c15="" class="cntctFrmsSbCnt">
-                        <h3 _ngcontent-c15="">Booking</h3>
+                        <h3 _ngcontent-c15="">Book Now!</h3>
                         <form _ngcontent-c15="" method="post" action="#" novalidate="" class="ng-untouched ng-pristine ng-invalid contactform ">
                             <label>Booking Type</label>
                             <select class="bookingtype" name="book_type">
@@ -82,13 +79,10 @@ $this->load->view('layout/header');
                     </div>
                 </div>
                 <div _ngcontent-c15="" class="cntctAddress">
-                    <h3 _ngcontent-c15="">Drop in our Office</h3>
+                    <h3 _ngcontent-c15="">Mayur Vihar II Branch</h3>
                     <p _ngcontent-c15=""> We would love to hear from you. Drop us a Line or Call with your queries, feedback or concerns. </p>
                     <ul _ngcontent-c15="" class="adrsCnt">
-                        <li _ngcontent-c15="">
-                            <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
-                            <p _ngcontent-c15="">C-44,Shop No.2,<br _ngcontent-c15="">Street no. 15, Mabhu Vihar <br/>New Delhi,  110092 India</p>
-                        </li>
+                       
                         <li _ngcontent-c15="">
                             <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
                             <p _ngcontent-c15="">Pocket B, 218, Mayur Vihar <br _ngcontent-c15="">New Delhi, 110091 India</p>
