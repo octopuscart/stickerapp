@@ -26,7 +26,18 @@ $this->load->view('layout/header');
                                     <label> Time</label>
                                     <input _ngcontent-c15="" formcontrolname="name" name="select_time" placeholder="<?php echo date("H:i:s a"); ?>" value="<?php echo date("H:i:s a"); ?>" type="time" class="ng-untouched ng-pristine ng-invalid"><!---->
 
+
+                                    <select class="bookingtype" name="select_time" >
+                                        <?php
+                                        for()
+                                        ?>
+                                        <option value="Visit Us At The Studio">Visit Us At The Studio</option>
+                                        <option value="For Home Visits">For Home Visits</option>
+                                    </select>
+
                                 </div>
+
+
                                 <div class="col-md-7">
                                     <label> Date</label>
                                     <input _ngcontent-c15="" formcontrolname="name" name="select_date" placeholder="<?php echo date("Y-m-d"); ?>" type="date" class="ng-untouched ng-pristine ng-invalid"><!---->
@@ -88,7 +99,7 @@ $this->load->view('layout/header');
 
 
 
- 
+
 </app-contact-us>
 <!--end of contant section-->
 
