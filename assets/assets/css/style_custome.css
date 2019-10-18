@@ -382,3 +382,11 @@ header:hover {
     color: white!important;
     font-size: 20px;
 }
+
+section.homeVideoSec:before, section.homeVideoSec:after {
+    background-image:  none!important;
+}
+
+.homeVideoSec .container:before{
+     background-image:  none!important;
+}
