@@ -14,7 +14,7 @@ $this->load->view('layout/header');
             <div _ngcontent-c15="" class="cntctFrmCnt">
                        <div _ngcontent-c15="" class="cntctAddress leftcontact">
                     <h3 _ngcontent-c15="">Madhu Vihar Branch</h3>
-                    <p _ngcontent-c15=""> We would love to hear from you. Drop us a Line or Call with your queries, feedback or concerns. </p>
+                    <p _ngcontent-c15=""> Reach us out for Bookings, queries, feedback and concerns -</p>
                     <ul _ngcontent-c15="" class="adrsCnt">
                         <li _ngcontent-c15="">
                             <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
@@ -80,7 +80,7 @@ $this->load->view('layout/header');
                 </div>
                 <div _ngcontent-c15="" class="cntctAddress">
                     <h3 _ngcontent-c15="">Mayur Vihar II Branch</h3>
-                    <p _ngcontent-c15=""> We would love to hear from you. Drop us a Line or Call with your queries, feedback or concerns. </p>
+                    <p _ngcontent-c15=""> Reach us out for Bookings, queries, feedback and concerns -</p>
                     <ul _ngcontent-c15="" class="adrsCnt">
                        
                         <li _ngcontent-c15="">
