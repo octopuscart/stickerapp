@@ -41,6 +41,10 @@ $this->load->view('layout/headerAdmin');
                         ?>
                         <div class="col-md-4" style="margin-bottom: 20px">
                             <img src="<?php echo base_url(); ?>assets/sliders/<?php echo $value['image']; ?>" class="img-fluid" alt="Responsive image">
+                            <form method="post" action="#">
+                                <input type="hidden" name="slider_id" value="<?php echo $value['id']; ?>">
+                                <button type="submit" class="btn btn-default btn-sm" name="deleteImage"><i class="fa fa-trash"></i> Delete</button>
+                            </form>
                         </div>
                         <?php
                     }

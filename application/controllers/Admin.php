@@ -411,6 +411,15 @@ class Admin extends CI_Controller {
         $query = $this->db->get('slider_images');
         $slider_images = $query->result_array();
         $data['slider_images'] = $slider_images;
+
+        if (isset($_POST['deleteImage'])) {
+            $id = $this->input->post("slider_id");
+            $this->db->where('id', $id); //set column_name and value in which row need to update
+            $this->db->delete("slider_images");
+            redirect("Admin/sliderImages");
+        }
+
+
         if (isset($_POST['addImage'])) {
             $realfilename = $this->input->post("file_real_name");
             if ($realfilename) {
@@ -427,7 +436,8 @@ class Admin extends CI_Controller {
                 $config['file_name'] = $file_newname;
                 //Load upload library and initialize configuration
                 $this->load->library('upload', $config);
-                $this->upload->initialize($config);;
+                $this->upload->initialize($config);
+                ;
                 if ($this->upload->do_upload('file')) {
                     $uploadData = $this->upload->data();
                     $tableid = $tableid;
