@@ -12,6 +12,32 @@ $this->load->view('layout/header');
     <section _ngcontent-c15="" class="cntctFrmCntSec">
         <div _ngcontent-c15="" class="container">
             <div _ngcontent-c15="" class="cntctFrmCnt">
+                       <div _ngcontent-c15="" class="cntctAddress leftcontact">
+                    <h3 _ngcontent-c15="">Drop in our Office</h3>
+                    <p _ngcontent-c15=""> We would love to hear from you. Drop us a Line or Call with your queries, feedback or concerns. </p>
+                    <ul _ngcontent-c15="" class="adrsCnt">
+                        <li _ngcontent-c15="">
+                            <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
+                            <p _ngcontent-c15="">C-44,Shop No.2,<br _ngcontent-c15="">Street no. 15, Mabhu Vihar <br/>New Delhi,  110092 India</p>
+                        </li>
+                        <li _ngcontent-c15="">
+                            <i _ngcontent-c15="" class="fas fa-map-marker-alt"></i>
+                            <p _ngcontent-c15="">Pocket B, 218, Mayur Vihar <br _ngcontent-c15="">New Delhi, 110091 India</p>
+                        </li>
+                        <li _ngcontent-c15=""><i _ngcontent-c15="" class="fas fa-envelope"></i><a _ngcontent-c15="" href="mailto:support@styletreatstudio.com">support@styletreatstudio.com</a></li>
+                        <li _ngcontent-c15="">
+                            <i _ngcontent-c15="" class="fas fa-mobile-alt"></i>
+                            <p _ngcontent-c15="">098736 77954</p>
+                        </li>
+                    </ul>
+                    <ul _ngcontent-c15="" class="scialAccnts">
+                        <p _ngcontent-c15="">Follow Us</p>
+                        <li _ngcontent-c15="" class="fb"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-facebook-f"></i></a></li>
+                        <li _ngcontent-c15="" class="tw"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-twitter"></i></a></li>
+                        <li _ngcontent-c15="" class="inst"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-instagram"></i></a></li>
+                        <li _ngcontent-c15="" class="pint"><a _ngcontent-c15="" href="#"><i _ngcontent-c15="" class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
                 <div _ngcontent-c15="" class="cntctFrmsCnt">
                     <div _ngcontent-c15="" class="cntctFrmsSbCnt">
                         <h3 _ngcontent-c15="">Booking</h3>
