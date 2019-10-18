@@ -18,21 +18,24 @@ $this->load->view('layout/header');
                         <form _ngcontent-c15="" method="post" action="#" novalidate="" class="ng-untouched ng-pristine ng-invalid contactform ">
                             <label>Booking Type</label>
                             <select class="bookingtype" name="book_type">
-                                <option value="Visit Us At The Studio">Visit Us At The Studio</option>
-                                <option value="For Home Visits">For Home Visits</option>
+                                <option value="At The Studio">At the Studio</option>
+                                <option value="Home Visits">Home Visits</option>
+                                <option value="Home Pick ups">Home Pick ups</option>
                             </select>
                             <div class="row">
                                 <div class="col-md-5">
                                     <label> Time</label>
-                                    <input _ngcontent-c15="" formcontrolname="name" name="select_time" placeholder="<?php echo date("H:i:s a"); ?>" value="<?php echo date("H:i:s a"); ?>" type="time" class="ng-untouched ng-pristine ng-invalid"><!---->
 
 
                                     <select class="bookingtype" name="select_time" >
                                         <?php
-                                        for()
+                                        $timeslot = ["10:00 AM", "11:00 AM", "12:00 PM", "01:00 PM", "02:00 PM", "03:00 PM", "04:00 PM", "05:00 PM", "06:00 PM", "08:00 PM"];
+                                        foreach ($timeslot as $key => $value) {
+                                            ?>
+                                        <option value="<?php echo $value;?>"><?php echo $value;?></option>
+                                            <?php
+                                        }
                                         ?>
-                                        <option value="Visit Us At The Studio">Visit Us At The Studio</option>
-                                        <option value="For Home Visits">For Home Visits</option>
                                     </select>
 
                                 </div>
@@ -40,7 +43,7 @@ $this->load->view('layout/header');
 
                                 <div class="col-md-7">
                                     <label> Date</label>
-                                    <input _ngcontent-c15="" formcontrolname="name" name="select_date" placeholder="<?php echo date("Y-m-d"); ?>" type="date" class="ng-untouched ng-pristine ng-invalid"><!---->
+                                    <input _ngcontent-c15="" formcontrolname="name" min="<?php echo date("Y-m-d"); ?>" name="select_date" placeholder="<?php echo date("Y-m-d"); ?>" type="date" class="ng-untouched ng-pristine ng-invalid" value="<?php echo date("Y-m-d"); ?>"><!---->
 
                                 </div>
                             </div>

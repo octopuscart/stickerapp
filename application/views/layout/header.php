@@ -144,9 +144,16 @@
                             <header  class="animated fadeInDown" id="navbar">
 
                                 <div  class="container">
-
+                                    <div  class="">
+                                        <div  class="logo_cont hidden_mobile">
+                                            <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="    width: 282px;"></a>
+                                        </div>
+                                    </div>
 
                                     <ul _ngcontent-c12="" class="appLink headerdownloadlogo hideonmobile">
+                                                                                           <a  href="<?php echo site_url("contact-us") ?>" id="loginSignup" class="ng-star-inserted btn btn-danger gradiantback booking_button" style="color:white"><i class="fa fa-edit"></i> Book Now </a>
+
+                                        
                                         <li _ngcontent-c12="">
                                             <a _ngcontent-c12="" href="#" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/google-play.png"></a>
                                         </li>
@@ -156,11 +163,7 @@
                                         </li>
                                     </ul>
 
-                                    <div  class="">
-                                        <div  class="logo_cont hidden_mobile">
-                                            <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="width: 211px;"></a>
-                                        </div>
-                                    </div>
+
                                     <div  class="logo_cont mobilelog">
                                         <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="width: 120px;"></a>
                                     </div>
@@ -195,7 +198,7 @@
                                         <nav  class="mainMenu hidden_mobile">
                                             <ul >
                                                 <li  class="loggedIn logIn" id="mainMenuLi">
-                                                    <!----><a  href="<?php echo site_url("contact-us") ?>" id="loginSignup" class="ng-star-inserted btn btn-danger gradiantback booking_button" style="color:white"><i class="fa fa-edit"></i> Book Now </a>
+                                                    <!---->
                                                     <!---->
                                                     <div  class="logOutBtnCnt"><span  class="logOutBtn">Logout</span></div>
                                                 </li>

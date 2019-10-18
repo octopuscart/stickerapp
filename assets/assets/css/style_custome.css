@@ -60,11 +60,11 @@
 
 .logo_cont {
     /* height: 70px; */
-    /* width: 165px; */
-    line-height: normal;
-    position: relative;
+    width: 165px;
+    /* line-height: normal; */
+    /* position: relative; */
     position: absolute;
-    left: 42%;
+    left: 59px;
 }
 .mobilelog{
     display: none;
@@ -249,9 +249,12 @@ header:hover {
 }
 
 .headerdownloadlogo{
-    float: left;
-    width: fit-content;
+     float: right;
+    width: 50%;
     position: absolute;
+    right: 0px;
+    display: inline;
+    top: 15px;
 }
 
 .btn-danger {
