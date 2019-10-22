@@ -413,3 +413,15 @@ height: auto;
 .mdaImgs img{
     width: 150px;
 }
+
+.ourFeatureSec {
+    width: 100%;
+    background-color: #f5f5f5;
+    background-image: url(../imgs/super_grey.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    overflow: hidden;
+    background-attachment: fixed;
+    padding: 130px 0;
+}
