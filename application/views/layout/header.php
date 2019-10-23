@@ -272,7 +272,7 @@
                                             <a class="nav-link" href="<?php echo site_url("faqs") ?>">FAQ's</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Our Portfolio</a>
+                                            <a class="nav-link" href="<?php echo site_url("portfolio");?>">Our Portfolio</a>
                                         </li>
                                     </ul>
                                 </div>
