@@ -69,6 +69,14 @@ class Shop extends CI_Controller {
     public function aboutus() {
         $this->load->view('Pages/aboutus');
     }
+    
+    public function academy() {
+        $this->load->view('Pages/acadmic');
+    }
+    
+    public function portfolio() {
+        $this->load->view('Pages/portfolio');
+    }
 
     public function services() {
         $services = $this->Product_model->serviceModel3();

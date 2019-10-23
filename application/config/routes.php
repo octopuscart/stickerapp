@@ -59,6 +59,8 @@ $route['appointment'] = 'Shop/appointment';
 $route['subscribe'] = 'Shop/subscribe';
 $route['aboutus'] = 'Shop/aboutus';
 $route['services'] = 'Shop/services';
+$route['academy'] = 'Shop/academy';
+$route['portfolio'] = 'Shop/portfolio';
 
 
 $route['reviews'] = 'Shop/reviews';

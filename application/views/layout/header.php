@@ -146,7 +146,7 @@
                                 <div  class="container">
                                     <div  class="">
                                         <div  class="logo_cont hidden_mobile">
-                                            <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="    width: 312px;"></a>
+                                            <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="    width: 365px;"></a>
                                         </div>
                                     </div>
 
@@ -262,7 +262,7 @@
                                             <a class="nav-link" href="<?php echo site_url("services") ?>">Services</a>
                                         </li>-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Academy</a>
+                                            <a class="nav-link" href="<?php echo site_url('academy');?>">Academy</a>
                                         </li>
                                      
                                         <li class="nav-item">
