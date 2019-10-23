@@ -258,15 +258,13 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo site_url("aboutus") ?>">Know Our Story</a>
                                         </li>
-                                        <li class="nav-item">
+<!--                                        <li class="nav-item">
                                             <a class="nav-link" href="<?php echo site_url("services") ?>">Services</a>
-                                        </li>
+                                        </li>-->
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Academy</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">E-Shop</a>
-                                        </li>
+                                     
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo site_url("contact-us") ?>">Contact</a>
                                         </li>

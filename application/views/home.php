@@ -31,14 +31,17 @@ $this->load->view('layout/header');
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/InHouseStudio.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Inhouse Studio </h2>
-                        <p _ngcontent-c9=""> We have Experienced &amp; Premium beauty professionals in the list of Yes MADAM.All beautician come on-board after pass our standard and cosmetics test. </p>
+                        <p _ngcontent-c9=""> 
+                            We bolster seasoned and premiere hair, skin and beauty professionals. Our artists are trained and experienced at Ashmeen Munjaal’s Make-Up Academy. 
+                        </p>
                     </div>
                 </div>
                  <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/EventMakeup.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Venue make up</h2>
-                        <p _ngcontent-c9=""> We have Experienced &amp; Premium beauty professionals in the list of Yes MADAM.All beautician come on-board after pass our standard and cosmetics test. </p>
+                        <p _ngcontent-c9=""> 
+We know the hustle for events and we understand you so when you can’t come to the salon we bring the salon to you. The team is fully equipped with all the requirements. All you need to do is dial the number or book and appointment by a click.                         </p>
                     </div>
                 </div>
                 
@@ -47,7 +50,8 @@ $this->load->view('layout/header');
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/Pickdp_drop.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Pick up/ Drop Facility </h2>
-                        <p _ngcontent-c9=""> Save 40-50% of your money compared to other local Salon.You will also get assured satisfaction with our services because your hard-earned money deserves 100% satisfaction. </p>
+                        <p _ngcontent-c9=""> 
+We at Style Treat love to embrace our clients and pamper them, we help you avoid the chaos of getting to the salon yourself by providing categorical pick/drop services for our lovely clients with an expert lady driver driving you to your pamper session at the salon.                         </p>
                     </div>
                 </div>
                 
@@ -55,7 +59,8 @@ $this->load->view('layout/header');
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/HomeVisit.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Home Visits</h2>
-                        <p _ngcontent-c9=""> All our beautician use only Branded and genuine products in sealed &amp; Single time use Sachet packets.We provide 100% transparency in our Products. </p>
+                        <p _ngcontent-c9=""> 
+We know you ladies balance life, work and families all together so we understand when you don’t find time for the salon, we get you the entire set-up at home just at a call/click.                         </p>
                     </div>
                 </div>
 
@@ -218,16 +223,19 @@ $this->load->view('layout/header');
                 <h2 _ngcontent-c6="" class="left">Our Best Features</h2></div>
             <div _ngcontent-c6="" class="ourFtrCnt">
                 <div _ngcontent-c6="" class="ourFtrOpt">
-                    <h2 _ngcontent-c6="">USER-FRIENDLY INTERFACE</h2>
-                    <p _ngcontent-c6=""> The Chic &amp; attractive landing page is designed to capture the hearts of the existing Customer's, and lure potential Customer's to convert them into regular Customer's. </p>
+                    <h2 _ngcontent-c6="">Client Friendly </h2>
+                    <p _ngcontent-c6=""> 
+Our clients define us, make us and we prioritize them over everything else. As our client, you decide the time, venue and service and WE SEVE TO THE BEST.                    </p>
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
-                    <h2 _ngcontent-c6="">APPOINTMENTS</h2>
-                    <p _ngcontent-c6=""> The Style Treat Studios Mobile app allows customers to easily book,Manage, and Track appointments with just a few taps and touches. Apart from this Our Customer's receive notifications for Booking and Assigned Beautician via SMS when appointment are scheduled </p>
+                    <h2 _ngcontent-c6="">Appointments </h2>
+                    <p _ngcontent-c6=""> 
+The STS Mobile App allows clients to easily book, manage and track appointments with just a few clicks. The procedure is hassle-free as easy as ordering your food online through the app.                     </p>
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
-                    <h2 _ngcontent-c6="">100% TRANSPARENCY IN PRODUCTS</h2>
-                    <p _ngcontent-c6=""> We have only Genuine and Branded Products for our Customer's.Beautician apply sealed and unused products in front of Customer's. </p>
+                    <h2 _ngcontent-c6="">100% Transparency </h2>
+                    <p _ngcontent-c6="">
+We provide suggestions and recommendations to our clients while embracing their natural beauty. We use authentic products according to the skin and hair type of our clients.                     </p>
                 </div>
             </div>
         </div>
