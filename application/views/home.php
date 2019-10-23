@@ -26,7 +26,7 @@ $this->load->view('layout/header');
             <div _ngcontent-c9="" class="secHdngCnt">
                 <h1 _ngcontent-c9="">Highlights</h1></div>
             <div _ngcontent-c9="" class="wyYMDMCnt">
-                
+
                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/InHouseStudio.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
@@ -36,35 +36,35 @@ $this->load->view('layout/header');
                         </p>
                     </div>
                 </div>
-                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
+                <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/EventMakeup.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Venue make up</h2>
                         <p _ngcontent-c9=""> 
-We know the hustle for events and we understand you so when you can’t come to the salon we bring the salon to you. The team is fully equipped with all the requirements. All you need to do is dial the number or book and appointment by a click.                         </p>
+                            We know the hustle for events and we understand you so when you can’t come to the salon we bring the salon to you. The team is fully equipped with all the requirements. All you need to do is dial the number or book and appointment by a click.                         </p>
                     </div>
                 </div>
-                
-                
+
+
                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/Pickdp_drop.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Pick up/ Drop Facility </h2>
                         <p _ngcontent-c9=""> 
-We at Style Treat love to embrace our clients and pamper them, we help you avoid the chaos of getting to the salon yourself by providing categorical pick/drop services for our lovely clients with an expert lady driver driving you to your pamper session at the salon.                         </p>
+                            We at Style Treat love to embrace our clients and pamper them, we help you avoid the chaos of getting to the salon yourself by providing categorical pick/drop services for our lovely clients with an expert lady driver driving you to your pamper session at the salon.                         </p>
                     </div>
                 </div>
-                
+
                 <div _ngcontent-c9="" class="wyYMDMOptn">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/HomeVisit.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Home Visits</h2>
                         <p _ngcontent-c9=""> 
-We know you ladies balance life, work and families all together so we understand when you don’t find time for the salon, we get you the entire set-up at home just at a call/click.                         </p>
+                            We know you ladies balance life, work and families all together so we understand when you don’t find time for the salon, we get you the entire set-up at home just at a call/click.                         </p>
                     </div>
                 </div>
 
-               
+
             </div>
         </div>
 
@@ -79,7 +79,7 @@ We know you ladies balance life, work and families all together so we understand
         </div>
     </section>
 
-  
+
     <!---->
     <!---->
     <app-customer-reviews _ngcontent-c6="" _nghost-c11="">
@@ -96,6 +96,40 @@ We know you ladies balance life, work and families all together so we understand
 
                                 <?php
                                 $reviewItem = [
+                                    array(
+                                        "img" => "",
+                                        "person" => "Saveena Goel",
+                                        "review" => "Experience is awesome...beautiful lady🙂 wid amazing hand...fullfilled 
+our desire on every occasion...whether a marriage function...or a normal function...d look made by her is awesome.....💓.. ",
+                                    ),
+                                    array(
+                                        "img" => "",
+                                        "person" => "Nisha",
+                                        "review" => "My experience with style treat salon was extremely comfortable and professional. Staff is really professional and makeup
+facility is realy amazing. Pick and drop service of this salon is the best part. The products are really safe. 
+Overall the best experience I've ever had of the salons yet.",
+                                    ),
+                                    array(
+                                        "img" => "",
+                                        "person" => "Rozy Jaitly",
+                                        "review" => "Very nice makeup by the staff and very friendly staff there rates are reasonable Overall the parlour is very good and well maintained with
+interior. Everyone should visit the parlour. It is near to all places in East Delhi mayur vihar and madhu vihar.",
+                                    ),
+                                    array(
+                                        "img" => "",
+                                        "person" => "Manisha Shastri",
+                                        "review" => "Style treat salon was awesme...thr service was outstanding.. 
+whn i started to visit thr i dnt wnt to go anywhere..
+thr staff was sooo cooperative nd sweet...i love to visit style treat salon again again...tripti was sch a sweet person she behave very sweetly to her
+clients & tht is most important to..style treat salon one of the best salon is east delhi... 😊",
+                                    ),
+                                    array(
+                                        "img" => "",
+                                        "person" => "J Swarnlata",
+                                        "review" => "Today's seminar whiched arranged by you my dear sweet hrt ❤❤ 💗💗 that was osm good ❤❤ fabulous 
+that was arrangements is also very good I have learnt many things in the seminar ❤❤💓💓.
+Thank you for arranging the seminar thanks a lot tripti.",
+                                    ),
                                     array(
                                         "img" => "",
                                         "person" => "REGAR K R RAJESTHANI",
@@ -127,18 +161,17 @@ We know you ladies balance life, work and families all together so we understand
                                                 <div _ngcontent-c11="" class="cstmrNmDtl">
                                                     <h3 _ngcontent-c11="" title="Sakshi Malviya"><?php echo $value['person']; ?></h3><span _ngcontent-c11="" class="reviewed">Reviewed Style Treat Studios</span></div>
                                             </div>
-                                            <div _ngcontent-c11="" class="rvwTxt">
-                                                <p _ngcontent-c11="" style="    height: 88%;
-                                                   overflow: hidden !important;">
-                                                   <?php echo $value['review']; ?>
+                                            <div _ngcontent-c11="" class="rvwTxt" style="    height: 100%;">
+                                                <p _ngcontent-c11="" style="      font-size: 19px;">
+    <?php echo $value['review']; ?>
                                                 </p>
                                             </div>
-                                           
+
                                         </div>
                                     </div>
-                                    <?php
-                                }
-                                ?>
+    <?php
+}
+?>
                             </div>
                         </div>
 
@@ -148,7 +181,7 @@ We know you ladies balance life, work and families all together so we understand
 
             </div>
         </section>
-       
+
     </app-customer-reviews>
 
     <app-welcome-rough-content _ngcontent-c6="" _nghost-c12="">
@@ -225,17 +258,17 @@ We know you ladies balance life, work and families all together so we understand
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">Client Friendly </h2>
                     <p _ngcontent-c6=""> 
-Our clients define us, make us and we prioritize them over everything else. As our client, you decide the time, venue and service and WE SEVE TO THE BEST.                    </p>
+                        Our clients define us, make us and we prioritize them over everything else. As our client, you decide the time, venue and service and WE SEVE TO THE BEST.                    </p>
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">Appointments </h2>
                     <p _ngcontent-c6=""> 
-The STS Mobile App allows clients to easily book, manage and track appointments with just a few clicks. The procedure is hassle-free as easy as ordering your food online through the app.                     </p>
+                        The STS Mobile App allows clients to easily book, manage and track appointments with just a few clicks. The procedure is hassle-free as easy as ordering your food online through the app.                     </p>
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">100% Transparency </h2>
                     <p _ngcontent-c6="">
-We provide suggestions and recommendations to our clients while embracing their natural beauty. We use authentic products according to the skin and hair type of our clients.                     </p>
+                        We provide suggestions and recommendations to our clients while embracing their natural beauty. We use authentic products according to the skin and hair type of our clients.                     </p>
                 </div>
             </div>
         </div>
