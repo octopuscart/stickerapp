@@ -146,7 +146,7 @@
                                 <div  class="container">
                                     <div  class="">
                                         <div  class="logo_cont hidden_mobile">
-                                            <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="    width: 365px;"></a>
+                                            <a  href="<?php echo site_url("/") ?>"><img  alt="" src="<?php echo base_url(); ?>assets/images/logo.png" style="    width: 330px;"></a>
                                         </div>
                                     </div>
 
