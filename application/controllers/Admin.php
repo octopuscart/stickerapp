@@ -255,6 +255,12 @@ class Admin extends CI_Controller {
         $this->load->view('Admin/dashboard', $data);
     }
 
+    function bookingDelete($id) {
+        $this->db->where('id', $id); //set column_name and value in which row need to update
+        $this->db->delete("web_order");
+        redirect("Admin/bookingReport");
+    }
+
     //orders list
     function bookingReport() {
         if ($this->user_id == 0) {

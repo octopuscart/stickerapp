@@ -59,12 +59,7 @@
                         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
                             <div class="sidebar-sticky">
                                 <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="<?php echo site_url("Admin/dashboard"); ?>">
-                                            <i class="fa fa-home"></i>
-                                            Dashboard <span class="sr-only">(current)</span>
-                                        </a>
-                                    </li>
+                                  
                                     <li class="nav-item">
                                         <a class="nav-link" href="<?php echo site_url("Admin/bookingReport") ?>">
                                             <i class="fa fa-list-ol"></i>
@@ -77,12 +72,7 @@
                                             Service Category
                                         </a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo site_url("Admin/services"); ?>">
-                                            <i class="fa fa-shopping-cart "></i>
-                                            Services
-                                        </a>
-                                    </li>
+                                   
                                     <li class="nav-item">
                                         <a class="nav-link" href="<?php echo site_url("Admin/customers"); ?>">
                                             <i class="fa fa-user"></i>

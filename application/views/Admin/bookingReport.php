@@ -84,7 +84,7 @@ $this->load->view('layout/headerAdmin');
                                     ?>
                                 </td>
                                 <td>
-                                    <a href="<?php echo site_url("order/orderdetails/" . $value->id); ?>" class="btn btn-primary btn-sm" style="    margin-top: 20%;">Update <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="<?php echo site_url("Admin/bookingDelete/" . $value->id); ?>" class="btn btn-danger btn-sm" style="    margin-top: 20%;">Delete <i class="fa fa-trash"></i></a>
                                 </td>
                             </tr>
                             <?php
