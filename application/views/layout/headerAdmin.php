@@ -66,12 +66,7 @@
                                             Booking Reports
                                         </a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo site_url("Admin/serviceCategory"); ?>">
-                                            <i class="fa fa-list-ul"></i>
-                                            Service Category
-                                        </a>
-                                    </li>
+                                  
                                    
                                     <li class="nav-item">
                                         <a class="nav-link" href="<?php echo site_url("Admin/customers"); ?>">
