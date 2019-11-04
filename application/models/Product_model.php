@@ -855,7 +855,7 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
         $services = [];
         foreach ($servicecategory as $key => $value) {
             $serid = $value['id'];
-            $this->db->select("service_name as title, 'checked' as 'false'");
+            $this->db->select("service_name as title, 'false' as 'checked'");
             $this->db->where('category_id', $serid);
             $this->db->order_by('display_index');
             $query = $this->db->get('category_items');

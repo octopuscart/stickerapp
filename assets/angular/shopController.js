@@ -2,7 +2,7 @@
  Shop Cart product controllers
  */
 App.controller('ShopController', function ($scope, $http, $timeout, $interval, $filter) {
-   $scope.userLogin = {};
+    $scope.userLogin = {};
 
     $scope.getLoginDetails2 = function () {
         var loginurl = baseurl + "Api/loginOperation"
@@ -10,11 +10,21 @@ App.controller('ShopController', function ($scope, $http, $timeout, $interval, $
             let userdata = rdata.data;
             console.log(userdata)
             if (userdata) {
-              $scope.userLogin = userdata
+                $scope.userLogin = userdata
             }
         })
     }
     $scope.getLoginDetails2();
+
+
+    var bookingurl = baseurl + "Api/services";
+    $scope.getServicegData = function () {
+        $http.get(bookingurl).then(function (returndata) {
+            $scope.selectService = returndata.data;
+            console.log($scope.selectService);
+        })
+    }
+    $scope.getServicegData();
 
 
 

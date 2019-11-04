@@ -3,6 +3,10 @@ $this->load->view('layout/headerAdmin');
 ?>
 
 <style>
+    
+    .small_table{
+        width: 100%;
+    }
     .small_table td, .small_table th {
     padding: 0px 5px;
     line-height: 18px;
@@ -31,7 +35,7 @@ $this->load->view('layout/headerAdmin');
                         <th style="width:300px">Customer Information</th>
                         <th style="width:300px">Services</th>
                         <th style="width:300px">Message</th>
-                        <th style="width:100px">Date/Time</th>
+                        <th style="width:150px">Date/Time</th>
                         <th style="width:100px"></th>
 
                     </tr>
@@ -54,7 +58,7 @@ $this->load->view('layout/headerAdmin');
                                 <td>
 
                                 
-                                    <table class="small_table">
+                                    <table class="small_table" >
                                          <tr>
                                             <th><i class="fa fa-user"></i> &nbsp; </th>
                                             <td class="overtext">  <?php echo $value->name; ?></td>
