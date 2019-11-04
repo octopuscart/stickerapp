@@ -61,7 +61,7 @@ class Shop extends CI_Controller {
             $sendernameeq = $this->input->post('full_name');
 
 
-//redirect('contact-us');
+            redirect('contact-us');
         }
         $this->load->view('Pages/contactus', $data);
     }
