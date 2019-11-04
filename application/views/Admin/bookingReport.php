@@ -30,6 +30,7 @@ $this->load->view('layout/headerAdmin');
                         <th style="width:150px">Booking No.</th>
                         <th style="width:300px">Customer Information</th>
                         <th style="width:300px">Services</th>
+                        <th style="width:300px">Message</th>
                         <th>Booing Dat/Time</th>
                         <th style="width:100px"></th>
 
@@ -74,6 +75,12 @@ $this->load->view('layout/headerAdmin');
                                 <td>
                                     <?php
                                     echo $value->select_table . "<br/>";
+                                    ?>
+                                </td>
+                                
+                                <td>
+                                    <?php
+                                    echo $value->extra_remark . "<br/>";
                                     ?>
                                 </td>
 
