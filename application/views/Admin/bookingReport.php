@@ -27,11 +27,11 @@ $this->load->view('layout/headerAdmin');
                 <thead>
                     <tr>
                         
-                        <th style="width:150px">Booking No.</th>
+                        <th style="width:50px">Booking No.</th>
                         <th style="width:300px">Customer Information</th>
                         <th style="width:300px">Services</th>
                         <th style="width:300px">Message</th>
-                        <th>Booing Dat/Time</th>
+                        <th style="width:100px">Date/Time</th>
                         <th style="width:100px"></th>
 
                     </tr>

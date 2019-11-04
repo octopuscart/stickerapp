@@ -130,7 +130,7 @@ class Admin extends CI_Controller {
                     $this->session->set_userdata('logged_in', $sess_data);
 
 
-                    redirect('Admin/dashboard ');
+                    redirect('Admin/bookingReport ');
                 } else {
                     $data1['msg'] = 'Invalid Email Or Password, Please Try Again';
                 }
