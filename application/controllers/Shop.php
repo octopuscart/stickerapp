@@ -44,7 +44,7 @@ class Shop extends CI_Controller {
                 'select_time' => $this->input->post('select_time'),
                 'booking_type' => $this->input->post('book_type'),
                 'extra_remark' => $this->input->post('message'),
-                'select_table' => "",
+                'select_table' => $this->input->post('select_table'),
                 'people' => "",
                 "usertype" => "Customer",
                 'datetime' => date("Y-m-d H:i:s a"),
@@ -69,11 +69,11 @@ class Shop extends CI_Controller {
     public function aboutus() {
         $this->load->view('Pages/aboutus');
     }
-    
+
     public function academy() {
         $this->load->view('Pages/acadmic');
     }
-    
+
     public function portfolio() {
         $this->load->view('Pages/portfolio');
     }

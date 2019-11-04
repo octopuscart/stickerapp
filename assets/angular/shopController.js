@@ -26,6 +26,23 @@ App.controller('ShopController', function ($scope, $http, $timeout, $interval, $
     }
     $scope.getServicegData();
 
+    $scope.selectedService = {};
+
+    $scope.chooseServices = function (service) {
+        console.log(service)
+        if (service.checked) {
+            $scope.selectedService[service.title] = "";
+        } else {
+            delete $scope.selectedService[service.title];
+        }
+        var tempservice = [];
+        for (serv in $scope.selectedService) {
+            tempservice.push(serv);
+        }
+        $scope.selectServicesText = tempservice.join(", ");
+        $scope.select_table = $scope.selectServicesText;
+    }
+
 
 
 
