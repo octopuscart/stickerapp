@@ -28,7 +28,8 @@ $this->load->view('layout/header');
 
                     <div _ngcontent-c14="" class="crr_crd_cnt two right">
                         <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"></span>
+                            <span _ngcontent-c14="" class="crr_crd_icon" style="background-image: url(<?php echo base_url(); ?>assets/services/hairbg.png);       background-size: 140px;
+    height: 160px;"></span>
                             <h3 _ngcontent-c14="" class="crr_hdng">Hair</h3>
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
@@ -47,7 +48,8 @@ $this->load->view('layout/header');
 
                     <div _ngcontent-c14="" class="crr_crd_cnt five left">
                         <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"><img _ngcontent-c14="" alt="" src=""></span>
+                            <span _ngcontent-c14="" class="crr_crd_icon" style="background-image: url(<?php echo base_url(); ?>assets/services/skinbg.png);       background-size: 140px;
+    height: 160px;"></span>
                             <h3 _ngcontent-c14="" class="crr_hdng">Skin</h3>
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
@@ -65,7 +67,8 @@ $this->load->view('layout/header');
                     </div>
                     <div _ngcontent-c14="" class="crr_crd_cnt six right">
                         <div _ngcontent-c14="" class="crr_crd">
-                            <span _ngcontent-c14="" class="crr_crd_icon"></span>
+                            <span _ngcontent-c14="" class="crr_crd_icon" style="background-image: url(<?php echo base_url(); ?>assets/services/beautybg.png);       background-size: 140px;
+    height: 160px;"></span>
                             <h3 _ngcontent-c14="" class="crr_hdng">Beauty</h3>
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
