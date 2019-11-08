@@ -94,7 +94,7 @@ $this->load->view('layout/header');
 
                             <input _ngcontent-c15="" formcontrolname="name" name="name" placeholder="Enter your full name" type="text" class="ng-untouched ng-pristine ng-invalid"><!---->
                             <input _ngcontent-c15="" formcontrolname="email" name="email" placeholder="Enter your email" type="email" value="" class="ng-untouched ng-pristine ng-invalid"><!---->
-                            <input _ngcontent-c15="" formcontrolname="contact_no" name="phone" placeholder="Enter your phone" type="text" value="" class="ng-untouched ng-pristine ng-invalid"><!---->
+                            <input _ngcontent-c15="" formcontrolname="contact_no" name="contact_no" placeholder="Enter your phone" type="text" value="" class="ng-untouched ng-pristine ng-invalid"><!---->
                             <textarea _ngcontent-c15="" formcontrolname="query" name="message" placeholder="Enter your query" class="ng-untouched ng-pristine ng-invalid"></textarea>
                             <button _ngcontent-c15="" class="sendBtn" type="submit" name="booking">Send</button>
                         </form>
