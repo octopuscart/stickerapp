@@ -83,11 +83,7 @@ $this->load->view('layout/headerAdmin');
                                     ?>
                                 </td>
                                 
-                                 <td>
-                                    <?php
-                                    echo $value->select_table . "<br/>";
-                                    ?>
-                                </td>
+                                
                                 
                                 <td>
                                     <?php
