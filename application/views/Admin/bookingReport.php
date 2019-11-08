@@ -91,7 +91,7 @@ $this->load->view('layout/headerAdmin');
                                 
                                 <td>
                                     <?php
-                                    echo $value->book_type . "<br/>";
+                                    echo $value->booking_type . "<br/>";
                                     ?>
                                 </td>
                                 
