@@ -898,9 +898,68 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
             $serviceresult = $query->result_array();
             $value['service'] = $serviceresult;
             $services[$value['id']] = $value;
-           
         }
         return $services;
+    }
+
+    function reviews() {
+        $reviewItem = [
+            array(
+                "img" => "",
+                "person" => "Saveena Goel",
+                "review" => "Experience is awesome...beautiful lady🙂 wid amazing hand...fullfilled 
+our desire on every occasion...whether a marriage function...or a normal function...d look made by her is awesome.....💓.. ",
+            ),
+            array(
+                "img" => "",
+                "person" => "Nisha",
+                "review" => "My experience with style treat salon was extremely comfortable and professional. Staff is really professional and makeup
+facility is realy amazing. Pick and drop service of this salon is the best part. The products are really safe. 
+Overall the best experience I've ever had of the salons yet.",
+            ),
+            array(
+                "img" => "",
+                "person" => "Rozy Jaitly",
+                "review" => "Very nice makeup by the staff and very friendly staff there rates are reasonable Overall the parlour is very good and well maintained with
+interior. Everyone should visit the parlour. It is near to all places in East Delhi mayur vihar and madhu vihar.",
+            ),
+            array(
+                "img" => "",
+                "person" => "Manisha Shastri",
+                "review" => "Style treat salon was awesme...thr service was outstanding.. 
+whn i started to visit thr i dnt wnt to go anywhere..
+thr staff was sooo cooperative nd sweet...i love to visit style treat salon again again...tripti was sch a sweet person she behave very sweetly to her
+clients & tht is most important to..style treat salon one of the best salon is east delhi... 😊",
+            ),
+            array(
+                "img" => "",
+                "person" => "J Swarnlata",
+                "review" => "Today's seminar whiched arranged by you my dear sweet hrt ❤❤ 💗💗 that was osm good ❤❤ fabulous 
+that was arrangements is also very good I have learnt many things in the seminar ❤❤💓💓.
+Thank you for arranging the seminar thanks a lot tripti.",
+            ),
+            array(
+                "img" => "",
+                "person" => "REGAR K R RAJESTHANI",
+                "review" => "Very nice and smart oner and staff very best beauty work style treat studio remembering time in my life"
+            ),
+            array(
+                "img" => "",
+                "person" => "Bhawna Kanojiya",
+                "review" => "I love your service's good job keep it up😊😊"
+            ),
+            array(
+                "img" => "",
+                "person" => "Jyoti Pari",
+                "review" => "I loved the work and enjoyed being there!"
+            ),
+            array(
+                "img" => "",
+                "person" => "Sandeep Gupta",
+                "review" => "Nice work girl.supporting staff.keep up good work"
+            ),
+        ];
+        return $reviewItem;
     }
 
 }

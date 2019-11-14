@@ -22,6 +22,7 @@ class Shop extends CI_Controller {
         $this->db->order_by('id desc');
         $query = $this->db->get('slider_images');
         $slider_images = $query->result_array();
+        $data['reviewItem'] = $this->Product_model->reviews();
         $data['slider_images'] = $slider_images;
         $this->load->view('home', $data);
     }

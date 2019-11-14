@@ -232,6 +232,11 @@ class Api extends REST_Controller {
         $sliderimages = $query->result();
         $this->response($sliderimages);
     }
+    
+    function reviews_get() {
+        $reviews = $this->Product_model->reviews();
+        $this->response($reviews);
+    }
 
 }
 
