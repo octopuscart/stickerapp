@@ -226,6 +226,12 @@ class Api extends REST_Controller {
         $services = $this->Product_model->serviceModel2();
         $this->response($services);
     }
+    
+    function sliderImages_get() {
+        $query = $this->db->get("slider_images");
+        $sliderimages = $query->result();
+        $this->response($sliderimages);
+    }
 
 }
 
