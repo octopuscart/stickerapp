@@ -429,3 +429,9 @@ height: auto;
 .crr_crd_icon{
     
 }
+
+.ourFtrCnt .ourFtrOpt h2 {
+    margin-bottom: 15px;
+    /* line-height: 0; */
+    font-size: 23px;
+}
