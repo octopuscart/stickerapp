@@ -30,26 +30,25 @@ $this->load->view('layout/header');
                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/InHouseStudio.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
-                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Inhouse Studio </h2>
+                        <h2 _ngcontent-c9="" class="wyYMDMHdng">In-House Studio </h2>
                         <p _ngcontent-c9=""> 
-                            We bolster seasoned and premiere hair, skin and beauty professionals. Our artists are trained and experienced at Ashmeen Munjaal’s Make-Up Academy. 
-                        </p>
+We bolster seasoned and premiere hair, skin and beauty professionals treating with authentic products and services. Our team is trained and supervised by the professional make up artist tripti garg (founder of sts)
+Certified by Ashmeen Munjaal’s makeup academy.                        </p>
                     </div>
                 </div>
                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
-                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/EventMakeup.jpg"></div>
+                    <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/EventMakeup2.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Venue make up</h2>
                         <p _ngcontent-c9=""> 
-                            We know the hustle for events and we understand you so when you can’t come to the salon we bring the salon to you. The team is fully equipped with all the requirements. All you need to do is dial the number or book and appointment by a click.                         </p>
-                    </div>
+Hey there! We know the hassle of getting ready for events is too much, so when you can’t visit the salon we bring the salon to you. The team is fully equipped and has trained professionals to ease your hassle. Also customer satisfaction has always been our priority. All you need to do is dial us or book an appointment by a click, we’ll be at your service.                    </div>
                 </div>
 
 
                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
                     <div _ngcontent-c9="" class="wyYMDMOptnImg"><img _ngcontent-c9="" alt="" src="<?php echo base_url(); ?>assets/highlight/Pickdp_drop.jpg"></div>
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
-                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Pick up/ Drop Facility </h2>
+                        <h2 _ngcontent-c9="" class="wyYMDMHdng">Pick and drop facility </h2>
                         <p _ngcontent-c9=""> 
                             We at Style Treat love to embrace our clients and pamper them, we help you avoid the chaos of getting to the salon yourself by providing categorical pick/drop services for our lovely clients with an expert lady driver driving you to your pamper session at the salon.                         </p>
                     </div>
@@ -60,8 +59,7 @@ $this->load->view('layout/header');
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">Home Visits</h2>
                         <p _ngcontent-c9=""> 
-                            We know you ladies balance life, work and families all together so we understand when you don’t find time for the salon, we get you the entire set-up at home just at a call/click.                         </p>
-                    </div>
+This is for all the ladies who balances life, work and families all together. We understand and value the time you give to pamper others but forget to take care of yourselves, worry not we’re here all set to pamper you at your door step, just a click/call away.                    </div>
                 </div>
 
 

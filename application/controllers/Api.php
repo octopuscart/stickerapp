@@ -214,13 +214,23 @@ class Api extends REST_Controller {
         $query = $this->db->get("web_order");
         $result = $query->result();
         $this->response($result);
-    }
+    }//
 
+    
     //function for product list
     function services_get() {
         $services = $this->Product_model->serviceModel();
         $this->response($services);
     }
+    //-----------
+    
+    
+    //function for product list
+    function services3_get() {
+        $services = $this->Product_model->serviceModel3();
+        $this->response($services);
+    }//-----------
+    
     
     function servicesAdmin_get() {
         $services = $this->Product_model->serviceModel2();

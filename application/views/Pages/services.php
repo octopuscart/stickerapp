@@ -13,13 +13,6 @@ $this->load->view('layout/header');
             </div>
         </section>
 
-
-
-
-
-
-
-
         <section _ngcontent-c14="" class="wtWeHvSec">
 
             <div _ngcontent-c14="" class="container">
