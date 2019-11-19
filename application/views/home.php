@@ -201,12 +201,12 @@ This is for all the ladies who balances life, work and families all together. We
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">Client Friendly </h2>
                     <p _ngcontent-c6=""> 
-                        Our clients define us, make us and we prioritize them over everything else. As our client, you decide the time, venue and service and WE SEVE TO THE BEST.                    </p>
+                        Our clients define us, make us and we prioritize them over everything else. As our client, you decide the time, venue and service and WE WILL SERVE YOU WITH THE BEST!                    </p>
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">Appointments </h2>
                     <p _ngcontent-c6=""> 
-                        The STS Mobile App allows clients to easily book, manage and track appointments with just a few clicks. The procedure is hassle-free as easy as ordering your food online through the app.                     </p>
+The STS Website/App allows clients to easily book and manage appointments with just few clicks . The procedure is hassle-free as easy as ordering your food online through the app.                     </p>
                 </div>
                 <div _ngcontent-c6="" class="ourFtrOpt">
                     <h2 _ngcontent-c6="">100% Transparency </h2>
