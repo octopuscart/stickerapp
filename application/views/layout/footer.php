@@ -9,9 +9,11 @@
                         <>
                         <ul _ngcontent-c4="">
                             <?php
-                            $servicehire = ['Hair Spa',
+                            $servicehire = [
+                                'Hair Treatments',
+                                'Hair Spa',
                                 'Hair Colour',
-                                'Keratine',
+                                'Keratin',
                                 'Smoothening',
                                 'Rebonding',
                                 'Hair Cut',
@@ -33,7 +35,7 @@
                                 'Body Polish',
                                 'Waxing',
                                 'Facial(s)',
-                                'Face Treatment'
+                                'Face Treatments'
                             ];
                             foreach ($servicehire as $key => $value) {
                                 ?>
@@ -50,7 +52,7 @@
                                 'Clean Up',
                                 'Manicure/Hand spa',
                                 'Pedicure/Foot Spa',
-                                'Nail Designing',
+                                'Nail Art/Nail Designing',
                                 'Eyelash Extensions',
                                 'Make up & Hair Do',
                                 'Bridal Packages',
