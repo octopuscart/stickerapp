@@ -54,7 +54,7 @@
                                 'Pedicure/Foot Spa',
                                 'Nail Art/Nail Designing',
                                 'Eyelash Extensions',
-                                'Make up & Hair Do',
+                                "Make up & Hair Do's",
                                 'Bridal Packages',
                                 'Thread work'
                             ];
