@@ -16,7 +16,7 @@ class Api extends REST_Controller {
     public function index() {
         $this->load->view('welcome_message');
     }
-    
+
     function updateCurd_post() {
         $fieldname = $this->post('name');
         $value = $this->post('value');
@@ -214,38 +214,48 @@ class Api extends REST_Controller {
         $query = $this->db->get("web_order");
         $result = $query->result();
         $this->response($result);
-    }//
+    }
 
-    
+//
     //function for product list
     function services_get() {
         $services = $this->Product_model->serviceModel();
         $this->response($services);
     }
+
     //-----------
-    
-    
     //function for product list
     function services3_get() {
         $services = $this->Product_model->serviceModel3();
         $this->response($services);
-    }//-----------
-    
-    
+    }
+
+//-----------
+
     function servicesAdmin_get() {
         $services = $this->Product_model->serviceModel2();
         $this->response($services);
     }
-    
+
     function sliderImages_get() {
         $query = $this->db->get("slider_images");
         $sliderimages = $query->result();
         $this->response($sliderimages);
     }
-    
+
     function reviews_get() {
         $reviews = $this->Product_model->reviews();
         $this->response($reviews);
+    }
+
+    function gallery_get() {
+        $gallery = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+        $galleryList = [];
+        foreach ($gallery as $key => $value) {
+            $temp = array("image" => $value . ".jpg");
+            array_push($galleryList, $temp);
+        }
+        $this->response($galleryList);
     }
 
 }
