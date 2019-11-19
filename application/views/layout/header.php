@@ -151,9 +151,9 @@
                                     </div>
 
                                     <ul _ngcontent-c12="" class="appLink headerdownloadlogo hideonmobile">
-                                                                                           <a  href="<?php echo site_url("contact-us") ?>" id="loginSignup" class="ng-star-inserted btn btn-danger gradiantback booking_button" style="color:white"><i class="fa fa-edit"></i> Book Now </a>
+                                        <a  href="<?php echo site_url("contact-us") ?>" id="loginSignup" class="ng-star-inserted btn btn-danger gradiantback booking_button" style="color:white"><i class="fa fa-edit"></i> Book Now </a>
 
-                                        
+
                                         <li _ngcontent-c12="">
                                             <a _ngcontent-c12="" href="#" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/google-play.png"></a>
                                         </li>
@@ -253,18 +253,22 @@
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="<?php echo site_url("/") ?>"">Home <span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo site_url("aboutus") ?>">Know Our Story</a>
+                                            <a class="nav-link" href="<?php echo site_url("/") ?>">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo site_url("services") ?>">Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo site_url('academy');?>">Academy</a>
+                                            <a class="nav-link" href="<?php echo site_url('academy'); ?>">Academy</a>
                                         </li>
-                                     
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="<?php echo site_url("portfolio"); ?>">Our Portfolio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="<?php echo site_url("aboutus") ?>">Know Our Story</a>
+                                        </li>
+
+
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo site_url("contact-us") ?>">Contact</a>
                                         </li>
@@ -272,8 +276,9 @@
                                             <a class="nav-link" href="<?php echo site_url("faqs") ?>">FAQ's</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo site_url("portfolio");?>">Our Portfolio</a>
+                                            <a class="nav-link" href="#">STS League</a>
                                         </li>
+
                                     </ul>
                                 </div>
                             </nav>
