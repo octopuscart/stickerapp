@@ -11,7 +11,7 @@ $this->load->view('layout/headerAdmin');
 <section class="sub-bnr" data-stellar-background-ratio="0.5" >
     <div class="position-center-center">
         <div class="container">
-            <h4>Slider Images</h4>
+            <h4><?php echo $title;?></h4>
 
         </div>
     </div>
@@ -40,7 +40,7 @@ $this->load->view('layout/headerAdmin');
                     foreach ($slider_images as $key => $value) {
                         ?>
                         <div class="col-md-4" style="margin-bottom: 20px">
-                            <img src="<?php echo base_url(); ?>assets/sliders/<?php echo $value['image']; ?>" class="img-fluid" alt="Responsive image">
+                            <img src="<?php echo base_url(); ?>assets/<?php echo $folder. "/". $value['image']; ?>" class="img-fluid" alt="Responsive image" style="height: 200px">
                             <form method="post" action="#">
                                 <input type="hidden" name="slider_id" value="<?php echo $value['id']; ?>">
                                 <button type="submit" class="btn btn-default btn-sm" name="deleteImage"><i class="fa fa-trash"></i> Delete</button>

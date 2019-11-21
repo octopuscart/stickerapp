@@ -457,6 +457,58 @@ class Admin extends CI_Controller {
             }
             redirect("Admin/sliderImages");
         }
+        $data["folder"] = "sliders";
+        $data["title"] = "Slider Images";
+        $this->load->view('Admin/sliderimages', $data);
+    }
+
+    function gallaryImages() {
+        $this->db->order_by('id desc');
+        $query = $this->db->get('gallery_images');
+        $slider_images = $query->result_array();
+        $data['slider_images'] = $slider_images;
+        $data["title"] = "Gallery Images";
+        $data["folder"] = "gallary";
+
+        if (isset($_POST['deleteImage'])) {
+            $id = $this->input->post("slider_id");
+            $this->db->where('id', $id); //set column_name and value in which row need to update
+            $this->db->delete("gallery_images");
+            redirect("Admin/gallaryImages");
+        }
+
+
+        if (isset($_POST['addImage'])) {
+            $realfilename = $this->input->post("file_real_name");
+            if ($realfilename) {
+                $config['upload_path'] = 'assets/gallary';
+                $config['allowed_types'] = '*';
+                $tempfilename = rand(10000, 1000000);
+                $tempfilename = "" . $tempfilename . $tableid;
+                $ext2 = explode('.', $_FILES['file']['name']);
+                $ext3 = strtolower(end($ext2));
+                $ext22 = explode('.', $tempfilename);
+                $ext33 = strtolower(end($ext22));
+                $filename = $ext22[0];
+                $file_newname = $filename . '.' . $ext3;
+                $config['file_name'] = $file_newname;
+                //Load upload library and initialize configuration
+                $this->load->library('upload', $config);
+                $this->upload->initialize($config);
+                ;
+                if ($this->upload->do_upload('file')) {
+                    $uploadData = $this->upload->data();
+                    $tableid = $tableid;
+                    $file_newname = $uploadData['file_name'];
+                    $insertArray = array(
+                        "image" => $file_newname,
+                        "display_index" => $this->input->post("display_index")
+                    );
+                    $this->db->insert("gallery_images", $insertArray);
+                }
+            }
+            redirect("Admin/gallaryImages");
+        }
         $this->load->view('Admin/sliderimages', $data);
     }
 

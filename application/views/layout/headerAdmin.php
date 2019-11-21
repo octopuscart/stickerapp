@@ -80,6 +80,15 @@
                                             Slider Images
                                         </a>
                                     </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo site_url("Admin/gallaryImages"); ?>">
+                                            <i class="fa fa-pinterest-p"></i>
+                                            Gallery Images
+                                        </a>
+                                    </li>
+                                    
+                                    
 
 
                                 </ul>

@@ -249,12 +249,8 @@ class Api extends REST_Controller {
     }
 
     function gallery_get() {
-        $gallery = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
-        $galleryList = [];
-        foreach ($gallery as $key => $value) {
-            $temp = array("image" => $value . ".jpg");
-            array_push($galleryList, $temp);
-        }
+        $query = $this->db->get("gallery_images");
+        $galleryList = $query->result();
         $this->response($galleryList);
     }
 
