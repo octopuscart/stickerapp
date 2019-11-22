@@ -83,12 +83,12 @@ $this->load->view('layout/header');
                                 </div>
                             </div>
 
-                            <div class="row" style="margin: 0px;">
-                                <div class="form-group col-md-9" style="    margin-bottom: 0;    padding-left: 0;">
+                            <div class="row" style="">
+                                <div class="form-group col-md-9" style="    margin-bottom: 0;  ;">
 
-                                    <textarea _ngcontent-c15="" formcontrolname="query" name="select_table" placeholder="Select Services" class="ng-untouched ng-pristine ng-invalid" style="height: 60px;padding: 0 9px;white-space: normal;font-size: 13px;">{{selectServicesText}}</textarea>
+                                    <textarea _ngcontent-c15="" formcontrolname="query" name="select_table" placeholder="Select Services" readonly="" class="ng-untouched ng-pristine ng-invalid" style="height: 60px;padding: 0 9px;white-space: normal;font-size: 13px;">{{selectServicesText}}</textarea>
                                 </div>
-                                <button type="button" class="btn btn-danger col-md-3" data-toggle="modal" data-target=".serviceModal" style="    height: 60px;background: #f97080;">Select</button>
+                                <button type="button" class="btn btn-danger col-md-3 servicebutton" data-toggle="modal" data-target=".serviceModal" >Select</button>
                             </div>
 
 
