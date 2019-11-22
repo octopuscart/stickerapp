@@ -76,7 +76,10 @@ class Shop extends CI_Controller {
     }
 
     public function portfolio() {
-        $this->load->view('Pages/portfolio');
+        $query = $this->db->get("gallery_images");
+        $galleryList = $query->result();
+        $data['gallery_images'] = $galleryList;
+        $this->load->view('Pages/portfolio', $data);
     }
 
     public function services() {
