@@ -88,7 +88,7 @@ $this->load->view('layout/header');
 
                                     <textarea _ngcontent-c15="" formcontrolname="query" name="select_table" placeholder="Select Services" readonly="" class="ng-untouched ng-pristine ng-invalid" style="height: 60px;padding: 0 9px;white-space: normal;font-size: 13px;">{{selectServicesText}}</textarea>
                                 </div>
-                                <button type="button" class="btn btn-danger col-md-3 servicebutton" data-toggle="modal" data-target=".serviceModal" >Select</button>
+                                <button type="button" class="btn btn-danger col-md-2 servicebutton" data-toggle="modal" data-target=".serviceModal" >Select</button>
                             </div>
 
 
