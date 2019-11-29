@@ -5,11 +5,7 @@ setTimeout(function () {
         autoPlaySpeed: 2000,
         autoPlayTimeout: 1000,
         autoplayHoverPause: false,
-        loop:true,
-        nav:true,
-        navText: ['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
-
-
+   
         responsive: {
             // breakpoint from 0 up
             0: {

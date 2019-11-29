@@ -21,40 +21,55 @@ $this->load->view('layout/header');
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="abtTxt" >
                     <p _ngcontent-c14="" > 
-                        The brand is headed by <b>Tripti Garg</b> who was a novice in the beauty field yet her passion drew her to the crux of it.
-                        It began as a dream and practice of make-up on herself which then dragged her to engender the branch and follow the passion. 
-                        She then decided to pursue it professionally and enrolled herself into the <b>Star Make-up 
-                            Academy by Ashmeen Munjaal.</b> </p>
+                    </p>
+
+                    <p _ngcontent-c14="" >  
+                        The brand is headed by Tripti Garg who started as novice in the beauty field yet her passion drew her to the crux of it. It began as a dream and practice of make-up on herself which then dragged her to engender the branch and follow the passion. She then decided to pursue it professionally and enrolled herself into the Star Make-up Academy by "Ashmeen Munjaal".
+                    </p>
                     <p _ngcontent-c14="" > 
-                    <p _ngcontent-c14="" > She went on to get herself certified as a professional and still continues to avidly follow make-up procedures and processes as her hobby. 
-                        She is keen on learning new techniques and has hands on experience on prolific skin types. </p>
-                    <p _ngcontent-c14="" > She set-up the first branch at Patparganj which did not serve her purpose to the core of it so as a young entrepreneur she decided to enhance her services by providing the pick and drop facilities to her clients. 
-                        She later realised that this was not the zenith of her ambition so she decided to  get ahead of it and established a new branch in Madhu Vihar but this still did not satiate her she also wanted her clients to be pampered properly when they get ready for their wedding she would want them to lavishly sit in the car parked right at the door of salon which wasn’t possible at Madhu Vihar so she further spread her wings to engender a branch at Mayur Vihar which meets all the needs. 
+                        Being certified as a professional, She avidly follows make-up procedures and processes. She had been keen to learn new techniques and had hands on experience on prolific skin types.
+                        She has been on the panel for make-up artist for models, judge at various contests and events furthermore also recently organised her very own live make-up session. 
                     </p>
-                    <p _ngcontent-c14="" > It has not been a cake walk but she has managed through it all. She has been on the panel for make-up artist for models, judge at various contests and events furthermore also recently organised her very own live make-up session.
-                        She manages her pages on both Facebook and Instagram by the name of the salon, she is also a registered vendor with <b>ShaadiSaga, WedMeGood, Nearbuy and Justdial.</b> She only plans to take her dream upwards and onwards from here by bringing to you the app. 
-                    </p>
-  <div class="row">
-                    <div class="col-md-6">
-                        <?php
-                        foreach ($gallery_images as $key => $value) {
-                            if($key%2==0)
-                            echo "<img src='" . base_url() . 'assets/gallary/' . $value->image . "' class='galleryimage'/>";
-                        }
-                        ?>
+                    <p _ngcontent-c14="" > 
+                        The brand has its presence on both Facebook and Instagram, and is also a registered vendor with ShaadiSaga, WedMeGood, Nearbuy and Justdial. 
+                        The brand currently stands a pillar to utmost covenience for all age groups,servicing personnel at a place of their ease with "Venue Make Ups" , "Home Visits" or through "Pick & Drop Facility" which they can easily avail through the brand's personalised App.
+                    </p> 
+                    <p _ngcontent-c14="" > 
+                        Special Arrangements Made for 
+                    <ul>
+                        <li> - School Functions </li>
+                        <li>- Teenage Farewells  </li>
+                        <li> - Kitty Parties</li>
+                        <li> - Theme Parties</li>
+                        <li>  - Cultural Gatherings (Dandiya Night, Karwa Chauth etc) </li>
+                        <li> - Special Occasions (Anniversary & Birthday Celebration Make up)</li>
+                        <li>  - Grace Make ups</li>
+                        <li>  - Destination weddings</li>
+                        <li> - Make up for bloggers / Ramp walkers </li>
+                    </ul>
+                    </p>       
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <?php
+                            foreach ($gallery_images as $key => $value) {
+                                if ($key % 2 == 0)
+                                    echo "<img src='" . base_url() . 'assets/gallary/' . $value->image . "' class='galleryimage'/>";
+                            }
+                            ?>
+                        </div>
+                        <div class="col-md-6">
+                            <?php
+                            foreach ($gallery_images as $key => $value) {
+                                if ($key % 2 != 0)
+                                    echo "<img src='" . base_url() . 'assets/gallary/' . $value->image . "' class='galleryimage'/>";
+                            }
+                            ?>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <?php
-                        foreach ($gallery_images as $key => $value) {
-                            if($key%2!=0)
-                            echo "<img src='" . base_url() . 'assets/gallary/' . $value->image . "' class='galleryimage'/>";
-                        }
-                        ?>
-                    </div>
-                </div>
 
                 </div>
-              
+
             </div>
 
 
