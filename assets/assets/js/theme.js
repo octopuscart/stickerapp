@@ -1,5 +1,5 @@
 setTimeout(function () {
-    $(".bigSlider").owlCarousel({
+    $("#bigSlider").owlCarousel({
 
         autoplay: true,
         autoPlaySpeed: 2000,

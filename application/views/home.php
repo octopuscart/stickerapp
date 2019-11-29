@@ -4,7 +4,7 @@ $this->load->view('layout/header');
 
 <router-outlet _ngcontent-c1=""></router-outlet>
 <div _nghost-c6="" class="ng-star-inserted slick-slider-header" style="background: white;">
-    <div class="bigSlider owl-carousel  carousel center r-header r-white-bg slick-initialized r slick-dotted">
+    <div id='bigSlider' class=" owl-carousel  carousel center r-header r-white-bg slick-initialized r slick-dotted">
 
         <?php
         foreach ($slider_images as $key => $value) {
