@@ -13,7 +13,7 @@ $this->load->view('layout/header');
     <div _ngcontent-c14="">
         <section _ngcontent-c14="" class="sbPageTopSec servicesPgSec">
             <div _ngcontent-c14="" class="container">
-                <h2 _ngcontent-c14="">My Portfolio</h2>
+                <h2 _ngcontent-c14="">Our Portfolio</h2>
             </div>
         </section>
 
