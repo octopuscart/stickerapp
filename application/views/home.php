@@ -32,8 +32,7 @@ $this->load->view('layout/header');
                     <div _ngcontent-c9="" class="wyYMDMOptnTxt">
                         <h2 _ngcontent-c9="" class="wyYMDMHdng">In-House Studio </h2>
                         <p _ngcontent-c9=""> 
-We bolster seasoned and premiere hair, skin and beauty professionals treating with authentic products and services. Our team is trained and supervised by the professional make up artist tripti garg (founder of sts)
-Certified by Ashmeen Munjaal’s makeup academy.                        </p>
+We bolster seasoned and premiere hair, skin and beauty professionals treating with authentic products and services. Our team is trained and supervised by the professional make up artist Tripti Garg (founder of Style Treat Studio) Certified by Ashmeen Munjaal’s makeup academy.</p>
                     </div>
                 </div>
                 <div _ngcontent-c9="" class="wyYMDMOptn rightImg">
@@ -234,6 +233,10 @@ The STS Website/App allows clients to easily book and manage appointments with j
                         </li>
                         <li _ngcontent-c13="">
                             <a _ngcontent-c13="" href="https://www.haritikajewellery.com" target="_blank"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/brand/haritikajewellery.jpeg"></a>
+                        </li>
+                        
+                        <li _ngcontent-c13="">
+                            <a _ngcontent-c13="" href="https://www.theprintadda.in/" target="_blank"><img _ngcontent-c13="" alt="" src="<?php echo base_url(); ?>assets/brand/the_print_adda.jpg"></a>
                         </li>
 
                     </ul>

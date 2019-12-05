@@ -61,8 +61,7 @@ $route['aboutus'] = 'Shop/aboutus';
 $route['services'] = 'Shop/services';
 $route['academy'] = 'Shop/academy';
 $route['portfolio'] = 'Shop/portfolio';
-
-
+$route['stsleague'] = 'Shop/STSLeague';
 $route['reviews'] = 'Shop/reviews';
 $route['faqs'] = 'Shop/faqs';
 $route['sitemap\.xml'] = "Sitemap/index";

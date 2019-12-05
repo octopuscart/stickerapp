@@ -15,7 +15,7 @@ $this->load->view('layout/header');
             <div _ngcontent-c14="" class="container">
                 <div _ngcontent-c14="" class="abtTxt" >
                     <p _ngcontent-c14="" > 
-                        We also are a home to the courses for make-up and beauty. We include a wide range of courses for hair, make up and beauty inculcating the inclination towards the art. The courses are created for learners across all bars of age and experience , taught and supervised by Tripti Garg herself. The list of the courses include but not limited to :  
+                        We also are a home to the courses for hair, make-up and beauty. We include a wide range of courses for hair, make up and beauty inculcating the fondness towards the art. The courses are created for learners across all age bars and experience, taught and supervised by Tripti Garg herself. The list of the courses include but not limited to :
                     </p>
 
                     <ul >

@@ -22,7 +22,7 @@ $this->load->view('layout/header');
                     <div _ngcontent-c14="" class="crr_crd_cnt two right">
                         <div _ngcontent-c14="" class="crr_crd">
                             <span _ngcontent-c14="" class="crr_crd_icon" style="background-image: url(<?php echo base_url(); ?>assets/services/hairbg.png);       background-size: 140px;
-    height: 160px;"></span>
+                                  height: 160px;"></span>
                             <h3 _ngcontent-c14="" class="crr_hdng">Hair</h3>
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
@@ -42,7 +42,7 @@ $this->load->view('layout/header');
                     <div _ngcontent-c14="" class="crr_crd_cnt five left">
                         <div _ngcontent-c14="" class="crr_crd">
                             <span _ngcontent-c14="" class="crr_crd_icon" style="background-image: url(<?php echo base_url(); ?>assets/services/skinbg.png);       background-size: 140px;
-    height: 160px;"></span>
+                                  height: 160px;"></span>
                             <h3 _ngcontent-c14="" class="crr_hdng">Skin</h3>
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
@@ -58,10 +58,10 @@ $this->load->view('layout/header');
                             </p>
                         </div>
                     </div>
-                    <div _ngcontent-c14="" class="crr_crd_cnt six right">
+                    <div _ngcontent-c14="" class="crr_crd_cnt three right">
                         <div _ngcontent-c14="" class="crr_crd">
                             <span _ngcontent-c14="" class="crr_crd_icon" style="background-image: url(<?php echo base_url(); ?>assets/services/beautybg.png);       background-size: 140px;
-    height: 160px;"></span>
+                                  height: 160px;"></span>
                             <h3 _ngcontent-c14="" class="crr_hdng">Beauty</h3>
                             <p _ngcontent-c14=""> 
                             <ul class="servicesubli">
@@ -70,9 +70,9 @@ $this->load->view('layout/header');
                                 foreach ($servicehire['service'] as $key => $value) {
                                     ?>
                                     <li _ngcontent-c4=""><a href="<?php echo site_url("Shop/serviceDetails/" . $value['id']) ?>" title="<?php echo $value['service_name']; ?>"><i class="fa fa-arrow-right"></i>  <?php echo $value['service_name']; ?></a></li>
-                                    <?php
-                                }
-                                ?>                      
+                                        <?php
+                                    }
+                                    ?>                      
                             </ul>
                             </p>
                         </div>
@@ -82,7 +82,7 @@ $this->load->view('layout/header');
 
 
         </section>
-      
+
 
     </div>
 </app-about-us>

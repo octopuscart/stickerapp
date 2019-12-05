@@ -74,6 +74,10 @@ class Shop extends CI_Controller {
     public function academy() {
         $this->load->view('Pages/acadmic');
     }
+    
+    public function STSLeague() {
+        $this->load->view('Pages/stsleague');
+    }
 
     public function portfolio() {
         $query = $this->db->get("gallery_images");

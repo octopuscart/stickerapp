@@ -170,7 +170,7 @@
                 array(
                     "title" => "STS League",
                     "icon" => "",
-                    "link" => "",
+                    "link" => site_url("stsleague"),
                 ),
             ];
             ?>
