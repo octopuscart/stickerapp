@@ -37,7 +37,7 @@ setTimeout(function () {
     $("#reviewSlider").owlCarousel({
         autoWidth: true,
         items: 2,
-//                        autoplay: true,
+                        autoplay: true,
     });
     function hideMenufunction(obj) {
         $(document).on('click', '.hideMenuClass', function () {
