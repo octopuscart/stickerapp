@@ -74,7 +74,7 @@
                         <h3 _ngcontent-c4="">Download The App</h3>
                         <ul _ngcontent-c12="" class="appLink footerapplink">
 
-                            <a _ngcontent-c12="" href="#" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/google-play.png"></a>
+                            <a _ngcontent-c12="" href="https://play.google.com/store/apps/details?id=com.srvapps.styletreat" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/google-play.png"></a>
 
 
                             <a _ngcontent-c12="" href="#" target="_blank"><img _ngcontent-c12="" alt="" src="<?php echo base_url(); ?>assets/assets/imgs/apple-icon.png"></a>
