@@ -96,7 +96,7 @@ This is for all the ladies who balances life, work and families all together. We
                                 foreach ($reviewItem as $key => $value) {
                                     ?>
 
-                                    <div _ngcontent-c11="" class="cstmrRvwSld owl-item" >
+                                    <div _ngcontent-c11="" class="cstmrRvwSld owl-item active" >
                                         <div _ngcontent-c11="" class="cstmrRvwBx">
                                             <div _ngcontent-c11="" class="cstmrDtl">
                                                 <div _ngcontent-c11="" class="cstmrImg"><img _ngcontent-c11="" alt="" style="border-radius: 50%;    height: inherit;" src="<?php echo base_url(); ?>assets/images/logo.png"></div>
