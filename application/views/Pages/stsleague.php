@@ -1,7 +1,9 @@
 <?php
 $this->load->view('layout/header');
 ?>
-
+<style>
+    .galleryimage{margin: 5px;}
+</style>
 <!--contannt section-->
 <app-about-us _nghost-c14="" class="ng-star-inserted">
     <div _ngcontent-c14="">
@@ -18,6 +20,16 @@ $this->load->view('layout/header');
                         STS League is a place where we give out the best services packages at the best price to our customers,<br/> So keep exploring the page for latest updates.
                     </p>
 
+                    <div class="row">
+                       
+                            <?php
+                            for($i=0;$i<=5;$i++) {
+                               
+                                    echo " <div class='col-md-6'><img src='" . base_url() . 'assets/images/sts/image' . $i . ".jpeg' class='galleryimage'/></div>";
+                            }
+                            ?>
+                        
+                    </div>
 
                 </div>
             </div>

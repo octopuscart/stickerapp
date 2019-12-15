@@ -148,15 +148,21 @@
                     "link" => site_url("services"),
                 ),
                 array(
-                    "title" => "Academy",
-                    "icon" => "",
-                    "link" => site_url('academy'),
-                ),
-                array(
                     "title" => "Our Portfolio",
                     "icon" => "",
                     "link" => site_url("portfolio"),
                 ),
+                array(
+                    "title" => "STS League",
+                    "icon" => "",
+                    "link" => site_url("stsleague"),
+                ),
+                array(
+                    "title" => "Academy",
+                    "icon" => "",
+                    "link" => site_url('academy'),
+                ),
+                
                 array(
                     "title" => "Know Our Story",
                     "icon" => "",
@@ -167,11 +173,7 @@
                     "icon" => "",
                     "link" => site_url("contact-us"),
                 ),
-                array(
-                    "title" => "STS League",
-                    "icon" => "",
-                    "link" => site_url("stsleague"),
-                ),
+                
             ];
             ?>
 
