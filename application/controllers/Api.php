@@ -94,45 +94,49 @@ class Api extends REST_Controller {
     }
 
     //Mobile Booking APi
-    function bookingFromMobile_post() {
+    function orderFromMobile_post() {
         header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");
         header('Access-Control-Allow-Origin: *');
 
         $this->config->load('rest', TRUE);
         $bookingarray = $this->post();
-        //print_r($bookingarray);
+
+
+        $cartdata = $this->post("cartdata");
+        $cartjson = json_decode($cartdata);
+
+
 
         $web_order = array(
             'name' => $this->post('name'),
             'email' => $this->post('email'),
-            'contact' => $this->post('contact_no'),
-            'select_date' => $this->post('select_date'),
-            'select_time' => $this->post('select_time'),
-            'booking_type' => $this->post('book_type'),
-            'extra_remark' => $this->post('message'),
-            'select_table' => $this->post('select_table'),
-            'people' => "",
-            "usertype" => "Customer",
+            'contact_no' => $this->post('contact_no'),
+            'address' => $this->post('address'),
             'datetime' => date("Y-m-d H:i:s a"),
-            "order_source" => "Mobile App",
-            'order_date' => date("Y-m-d"),
-            'status' => "0",
+            'quantity' => $this->post('quantity'),
+            'total' => $this->post('total'),
+            'payment_method' => "COD",
+            'order_status' => "Processing",
+            'user_id' => $this->post('user_id'),
         );
-        $this->db->insert('web_order', $web_order);
+        $this->db->insert('order_mobile', $web_order);
 
         $last_id = $this->db->insert_id();
         $oderid = $last_id;
-        $ordertype = $this->post('booking_type');
-        $orderlog = array(
-            'log_type' => "Order Received",
-            'log_datetime' => date('Y-m-d H:i:s'),
-            'user_id' => "",
-            'order_id' => $last_id,
-            'log_detail' => "Order No. #$last_id  $ordertype From Mobile App",
-        );
-        $this->db->insert('system_log', $orderlog);
-
-        $this->response(array("status" => "done"));
+        foreach ($cartjson as $key => $value) {
+            $productobj = array(
+                "product_id" => $value->id,
+                "title" => $value->title,
+                "image" => $value->image,
+                "price" => $value->price,
+                "note" => $value->note,
+                "quantity" => $value->quantity,
+                "total_price" => $value->total_price,
+                "order_id" => $oderid
+            );
+            $this->db->insert('ordercart', $productobj);
+        }
+        $this->response(array("order_id" => $oderid));
     }
 
     function registration_post() {
@@ -218,9 +222,39 @@ class Api extends REST_Controller {
 
 //
     //function for product list
-    function services_get() {
-        $services = $this->Product_model->serviceModel();
-        $this->response($services);
+    function userorder_get($user_id) {
+        $this->db->where('user_id', $user_id);
+        $this->db->order_by('id desc');
+        $query = $this->db->get("order_mobile");
+        $order_mobile = $query->result_array();
+//        $orderlist = [];
+//        foreach ($order_mobile as $key => $value) {
+//            $orderid = $value['id'];
+//            $this->db->where('order_id', $orderid);
+//            $query = $this->db->get("ordercart");
+//            $cartdata = $query->result_array();
+//            $value['cart_data'] = $cartdata;
+//            array_push($orderlist, $value);
+//        }
+        $this->response($order_mobile);
+    }
+
+    //function for order details list
+    function userorderdetails_get($order_id) {
+        $this->db->where('id', $order_id);
+        $this->db->order_by('id desc');
+        $query = $this->db->get("order_mobile");
+        $order_mobile = $query->row();
+        $orderdetails = array("order"=>$order_mobile);
+
+        $orderid = $order_mobile->id;
+        $this->db->where('order_id', $orderid);
+        $query = $this->db->get("ordercart");
+        $cartdata = $query->result_array();
+        $orderdetails['cart_data'] = $cartdata;
+
+
+        $this->response($orderdetails);
     }
 
     //-----------

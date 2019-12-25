@@ -1,9 +1,10 @@
 <?php
 $globleConnectDB = array();
 try {
-    $username = "bookbnev_padaiv";
-    $password = "G7}=DZyZH5@Z";
-    $conn = new PDO('mysql:host=localhost;dbname=bookbnev_styletreat', $username, $password);
+    $gbldatabase = "j2k5e6r5_sticker";
+    $gblusername = "j2k5e6r5_octopus";
+    $gblpassword = "India$2017";
+    $conn = new PDO("mysql:host=localhost;dbname=$gbldatabase", $gblusername, $gblpassword);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);    
      $stmt = $conn->prepare('SELECT * FROM configuration_site');
     $stmt->execute();

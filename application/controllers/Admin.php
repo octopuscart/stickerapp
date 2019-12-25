@@ -21,7 +21,10 @@ class Admin extends CI_Controller {
 
     public function index() {
         if ($this->user_id) {
-            redirect('Account/profile');
+            redirect('Account/profile2');
+        }
+        else{
+            redirect('Admin/bookingReport');
         }
     }
 

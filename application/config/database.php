@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+require("configdbconnect.php");
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
@@ -82,9 +82,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'bookbnev_padaiv',
-	'password' => 'G7}=DZyZH5@Z',
-	'database' => 'bookbnev_styletreat',
+	'username' => $gblusername,
+	'password' => $gblpassword,
+	'database' => $gbldatabase,
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
